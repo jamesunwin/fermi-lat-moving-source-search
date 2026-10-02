@@ -1,0 +1,16 @@
+name: fps
+channels:
+  - fermi
+  - conda-forge
+dependencies:
+  - python=3.11
+  - fermitools=2.5.1
+  - fermipy=1.4.2
+  - gammapy=1.3
+  - regions=0.11
+  - numpy=1.26.4
+  - astropy=7.2
+  - scipy
+  - scikit-learn
+  - pyyaml
+  - matplotlib

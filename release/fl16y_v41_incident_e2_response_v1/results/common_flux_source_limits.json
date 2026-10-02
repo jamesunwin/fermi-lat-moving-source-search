@@ -1,0 +1,5140 @@
+{
+  "analysis_identity": "fl16y_v41_incident_e2_response_v1",
+  "best_physical_flux_limit": {
+    "calibrated_sky_fraction": 0.9575892857142857,
+    "calibrated_sky_region_count": 429,
+    "has_any_calibrated_support": true,
+    "incident_flux_ph_cm2_s": 6.48564614546849e-10,
+    "source_upper_limit_90_percent_interval": {
+      "lower": 111.08818959918152,
+      "median": 123.45053116921056,
+      "upper": 135.5996068595812
+    },
+    "source_upper_limit_central": 123.05082351099946,
+    "survey_efficiency_central": 0.6562913439454107,
+    "velocity_degrees_per_year": 0.25
+  },
+  "count_upper_limit": 80.75719033562338,
+  "energy_model": {
+    "energy_dispersion": "neglected",
+    "energy_resolved_exposure_cube": "scratch/exposure_allsky_v1/expcube_allsky.fits",
+    "energy_resolved_exposure_cube_sha256": "a9fc346ac0da1dc0dc601b8268037b4e18c078e12581d67506b0f876c8313ad8",
+    "incident_spectrum": "dN/dE proportional to E^-2 over 1--100 GeV",
+    "spectrum_averaged_exposure": "data/exposures.json"
+  },
+  "flux_grid": {
+    "all_tiles_inside_calibration_ph_cm2_s": [
+      2.4971773634485473e-10,
+      5.93620263040951e-10
+    ],
+    "boundary_policy": "tiles whose physical mean is outside 8--35 contribute zero",
+    "partial_support_ph_cm2_s": [
+      1.3568463155221738e-10,
+      1.0925150965087394e-09
+    ],
+    "points": 121
+  },
+  "interpretation": "Physical steady-source flux response. Annual detected counts are Poisson distributed; efficiency is zero when the physical mean is outside 8--35 photons per annual bin for a given tile.",
+  "rows": [
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.3568463155221738e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 330316.4363234914,
+        "median": 972331.4587552978,
+        "upper": 2214359.3627754
+      },
+      "source_upper_limit_central": 1465368.9335616252,
+      "survey_efficiency_central": 5.511048343255134e-05,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.013392857142857142,
+      "calibrated_sky_region_count": 6,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.380637927009246e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 50554.92276057167,
+        "median": 104111.02434520976,
+        "upper": 315805.0218209217
+      },
+      "source_upper_limit_central": 104911.39847454357,
+      "survey_efficiency_central": 0.0007697656452003055,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.017857142857142856,
+      "calibrated_sky_region_count": 8,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.404846712328519e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 40864.5926141894,
+        "median": 79066.81447016535,
+        "upper": 209346.51093383686
+      },
+      "source_upper_limit_central": 81360.18543787683,
+      "survey_efficiency_central": 0.0009925885726660016,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.024553571428571428,
+      "calibrated_sky_region_count": 11,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4294799864114056e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 29147.95911928055,
+        "median": 53731.41992735055,
+        "upper": 121537.25907996413
+      },
+      "source_upper_limit_central": 55807.69838296797,
+      "survey_efficiency_central": 0.0014470618333235147,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.03125,
+      "calibrated_sky_region_count": 14,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4545451924529364e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 20324.46068101154,
+        "median": 34841.14945333278,
+        "upper": 67676.05859760744
+      },
+      "source_upper_limit_central": 35940.45449945727,
+      "survey_efficiency_central": 0.002246971872235029,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.04241071428571429,
+      "calibrated_sky_region_count": 19,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4800499041607713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 16124.488812118667,
+        "median": 26546.178404095182,
+        "upper": 47769.835124027624
+      },
+      "source_upper_limit_central": 27620.54675284779,
+      "survey_efficiency_central": 0.0029238085349377447,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.05133928571428571,
+      "calibrated_sky_region_count": 23,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.506001828043707e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 12827.755681934432,
+        "median": 20458.416039739073,
+        "upper": 34955.62736659323
+      },
+      "source_upper_limit_central": 21374.712894782886,
+      "survey_efficiency_central": 0.003778164915390957,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.060267857142857144,
+      "calibrated_sky_region_count": 27,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.532408805740256e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 10572.00702961148,
+        "median": 16508.985140333665,
+        "upper": 27398.527156995286
+      },
+      "source_upper_limit_central": 17211.950462893183,
+      "survey_efficiency_central": 0.004691925561238734,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.06919642857142858,
+      "calibrated_sky_region_count": 31,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.5592788163880807e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 9163.04664442686,
+        "median": 14007.74436059788,
+        "upper": 22537.05737737747
+      },
+      "source_upper_limit_central": 14656.913012485538,
+      "survey_efficiency_central": 0.005509836229963984,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.078125,
+      "calibrated_sky_region_count": 35,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.58661997903498e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 7698.69514412678,
+        "median": 11525.347886264408,
+        "upper": 18051.59020372852
+      },
+      "source_upper_limit_central": 12055.71767673193,
+      "survey_efficiency_central": 0.0066986630328519,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.08482142857142858,
+      "calibrated_sky_region_count": 38,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.614440555092116e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 6865.461528048702,
+        "median": 10171.297999060793,
+        "upper": 15745.975191111633
+      },
+      "source_upper_limit_central": 10653.075972691022,
+      "survey_efficiency_central": 0.0075806453030695595,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.10491071428571429,
+      "calibrated_sky_region_count": 47,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6427489508303206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 5638.129547462881,
+        "median": 8175.530904500179,
+        "upper": 12334.495419833002
+      },
+      "source_upper_limit_central": 8564.758769726568,
+      "survey_efficiency_central": 0.009429009328443884,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.11160714285714286,
+      "calibrated_sky_region_count": 50,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6715537199201139e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 5127.330291081486,
+        "median": 7388.615881182786,
+        "upper": 10956.228329844591
+      },
+      "source_upper_limit_central": 7699.89815138411,
+      "survey_efficiency_central": 0.010488085523716533,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.12276785714285714,
+      "calibrated_sky_region_count": 55,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.700863566016285e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 4676.89079233816,
+        "median": 6667.778438798452,
+        "upper": 9818.12311585371
+      },
+      "source_upper_limit_central": 6988.500376941843,
+      "survey_efficiency_central": 0.011555725260039637,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.13392857142857142,
+      "calibrated_sky_region_count": 60,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.7306873453877937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 4185.436272160015,
+        "median": 5901.466317730306,
+        "upper": 8577.932566609437
+      },
+      "source_upper_limit_central": 6160.345994494263,
+      "survey_efficiency_central": 0.013109197179476471,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.15625,
+      "calibrated_sky_region_count": 70,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.761034069593781e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3594.8359398780544,
+        "median": 4998.9715773641365,
+        "upper": 7163.976749363537
+      },
+      "source_upper_limit_central": 5233.714367282174,
+      "survey_efficiency_central": 0.015430186798206938,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.19196428571428573,
+      "calibrated_sky_region_count": 86,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.79191290820651e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3031.314897499531,
+        "median": 4173.338205235412,
+        "upper": 5913.03249154258
+      },
+      "source_upper_limit_central": 4363.890140587401,
+      "survey_efficiency_central": 0.018505779873906968,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.22098214285714285,
+      "calibrated_sky_region_count": 99,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8233331915820185e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2666.782942758404,
+        "median": 3632.3144654494927,
+        "upper": 5058.279602570162
+      },
+      "source_upper_limit_central": 3803.7716314888753,
+      "survey_efficiency_central": 0.021230819870227943,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.25223214285714285,
+      "calibrated_sky_region_count": 113,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8553044136794234e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2338.095310848682,
+        "median": 3162.260068305097,
+        "upper": 4338.570090519339
+      },
+      "source_upper_limit_central": 3311.7265021734506,
+      "survey_efficiency_central": 0.02438522332161889,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.28794642857142855,
+      "calibrated_sky_region_count": 129,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8878362349295893e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2030.932067082817,
+        "median": 2718.053935788157,
+        "upper": 3724.473235776612
+      },
+      "source_upper_limit_central": 2851.6677154111862,
+      "survey_efficiency_central": 0.028319284851874432,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.31473214285714285,
+      "calibrated_sky_region_count": 141,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9209384851541327e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1847.9817792751026,
+        "median": 2454.852962890215,
+        "upper": 3339.4015674213256
+      },
+      "source_upper_limit_central": 2581.8327448059745,
+      "survey_efficiency_central": 0.03127901700762274,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.3638392857142857,
+      "calibrated_sky_region_count": 163,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9546211665356106e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1600.8091277071646,
+        "median": 2115.2022893789454,
+        "upper": 2843.3443178897783
+      },
+      "source_upper_limit_central": 2216.4940365375674,
+      "survey_efficiency_central": 0.03643465265612711,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.39732142857142855,
+      "calibrated_sky_region_count": 178,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.988894456639751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1433.0505625467536,
+        "median": 1888.4677965416724,
+        "upper": 2525.1151768977097
+      },
+      "source_upper_limit_central": 1974.1801427920263,
+      "survey_efficiency_central": 0.04090669771473377,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.421875,
+      "calibrated_sky_region_count": 189,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.023768711490756e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1297.6051302054987,
+        "median": 1706.2915922589468,
+        "upper": 2277.041881059648
+      },
+      "source_upper_limit_central": 1785.441309216052,
+      "survey_efficiency_central": 0.04523094089890979,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.48214285714285715,
+      "calibrated_sky_region_count": 216,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0592544687004467e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1131.1933553243575,
+        "median": 1476.6830632507358,
+        "upper": 1959.8163538979802
+      },
+      "source_upper_limit_central": 1542.1870175552679,
+      "survey_efficiency_central": 0.0523653677643083,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.5290178571428571,
+      "calibrated_sky_region_count": 237,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0953624506523206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1025.621541684355,
+        "median": 1327.5464485439925,
+        "upper": 1759.9455459334356
+      },
+      "source_upper_limit_central": 1390.3616890992687,
+      "survey_efficiency_central": 0.05808358427075266,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.5535714285714286,
+      "calibrated_sky_region_count": 248,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1321035677414265e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 935.5037252876737,
+        "median": 1211.7923262865966,
+        "upper": 1596.1134087717862
+      },
+      "source_upper_limit_central": 1264.7148419320015,
+      "survey_efficiency_central": 0.06385407022839806,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.6160714285714286,
+      "calibrated_sky_region_count": 276,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1694889216710542e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 838.434168400544,
+        "median": 1082.8350901985978,
+        "upper": 1418.8533594137914
+      },
+      "source_upper_limit_central": 1129.7900315399932,
+      "survey_efficiency_central": 0.07147982198563475,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.6651785714285714,
+      "calibrated_sky_region_count": 298,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2075298088072337e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 760.5873447417665,
+        "median": 974.6519696140255,
+        "upper": 1277.1715820487846
+      },
+      "source_upper_limit_central": 1016.3274403502801,
+      "survey_efficiency_central": 0.07945981494683464,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.7455357142857143,
+      "calibrated_sky_region_count": 334,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.246237723592014e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 667.3520076729314,
+        "median": 853.1607716645309,
+        "upper": 1115.5371909431858
+      },
+      "source_upper_limit_central": 888.4543163399929,
+      "survey_efficiency_central": 0.09089627778308781,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8236607142857143,
+      "calibrated_sky_region_count": 369,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2856243620166782e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 599.5610458045747,
+        "median": 764.5087984982398,
+        "upper": 991.1123864301002
+      },
+      "source_upper_limit_central": 796.5373267097186,
+      "survey_efficiency_central": 0.1013853182112753,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8794642857142857,
+      "calibrated_sky_region_count": 394,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.3257016251557713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 552.5967000179422,
+        "median": 701.7447946432819,
+        "upper": 908.7762124574975
+      },
+      "source_upper_limit_central": 730.8317939312992,
+      "survey_efficiency_central": 0.11050037916551676,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.36648162276314e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 513.364279977652,
+        "median": 649.9727748593559,
+        "upper": 836.5178203247539
+      },
+      "source_upper_limit_central": 675.5441521837243,
+      "survey_efficiency_central": 0.11954391148908983,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9419642857142857,
+      "calibrated_sky_region_count": 422,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.407976676931029e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 479.2165639555416,
+        "median": 605.5741011811149,
+        "upper": 777.7333622741681
+      },
+      "source_upper_limit_central": 629.0108177550638,
+      "survey_efficiency_central": 0.12838760170110483,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9620535714285714,
+      "calibrated_sky_region_count": 431,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4501993258132866e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 454.52589281382785,
+        "median": 570.7092221619223,
+        "upper": 730.1373297814768
+      },
+      "source_upper_limit_central": 592.0677190949067,
+      "survey_efficiency_central": 0.1363985701822704,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9933035714285714,
+      "calibrated_sky_region_count": 445,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4931623274139544e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 429.491344795508,
+        "median": 539.4090230871045,
+        "upper": 685.7236880683716
+      },
+      "source_upper_limit_central": 558.9423539920347,
+      "survey_efficiency_central": 0.14448214517802355,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.5368786634421904e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 410.07882820168265,
+        "median": 512.0558922531544,
+        "upper": 649.5658867202189
+      },
+      "source_upper_limit_central": 531.2164247489201,
+      "survey_efficiency_central": 0.15202314268387568,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.581361543234833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 392.62688351783345,
+        "median": 489.4127241134474,
+        "upper": 619.0431112994479
+      },
+      "source_upper_limit_central": 506.5897065180314,
+      "survey_efficiency_central": 0.15941340555593964,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.626624407747739e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 376.7322244032032,
+        "median": 468.4483748389537,
+        "upper": 591.0684542235115
+      },
+      "source_upper_limit_central": 484.1655336258612,
+      "survey_efficiency_central": 0.1667966526465481,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.672680933617103e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 362.02373997820587,
+        "median": 449.3509785481557,
+        "upper": 563.8640654488427
+      },
+      "source_upper_limit_central": 463.59907927525154,
+      "survey_efficiency_central": 0.1741961836116495,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.719545037292007e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 349.1698037362512,
+        "median": 431.20745689287804,
+        "upper": 538.2824645851539
+      },
+      "source_upper_limit_central": 444.59788069512007,
+      "survey_efficiency_central": 0.181640970058969,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.7672308792393684e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 336.4264641659012,
+        "median": 414.21719204270096,
+        "upper": 517.0133967642724
+      },
+      "source_upper_limit_central": 426.9170466425884,
+      "survey_efficiency_central": 0.18916365830487125,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.815752868222741e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 324.59501072874133,
+        "median": 398.96666952034684,
+        "upper": 496.018679260019
+      },
+      "source_upper_limit_central": 410.3543890497956,
+      "survey_efficiency_central": 0.19679865133798696,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.8651256656560203e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 313.7531905971132,
+        "median": 384.0884174482418,
+        "upper": 475.49747010820545
+      },
+      "source_upper_limit_central": 394.7454466084813,
+      "survey_efficiency_central": 0.20458042272421811,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.915364190033557e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 303.1209494944232,
+        "median": 370.08968013075446,
+        "upper": 456.5998607104432
+      },
+      "source_upper_limit_central": 379.9584739374588,
+      "survey_efficiency_central": 0.21254214835307508,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.966483621437937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 293.214894217662,
+        "median": 356.99857976146745,
+        "upper": 437.34427198710546
+      },
+      "source_upper_limit_central": 365.8895430647417,
+      "survey_efficiency_central": 0.22071467158965496,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.0184994061267556e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 283.47951636036777,
+        "median": 344.69331259388775,
+        "upper": 420.12340841217895
+      },
+      "source_upper_limit_central": 352.457931566069,
+      "survey_efficiency_central": 0.22912575687202336,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.071427261199931e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 274.4913051400637,
+        "median": 332.13903367742716,
+        "upper": 403.39842408205413
+      },
+      "source_upper_limit_central": 339.6019523768385,
+      "survey_efficiency_central": 0.23779954670581915,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1252831793487403e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 265.9019719637877,
+        "median": 320.56420893295945,
+        "upper": 387.2948182190481
+      },
+      "source_upper_limit_central": 327.27532401931614,
+      "survey_efficiency_central": 0.24675612369375272,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1800834336881833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 257.6763931443997,
+        "median": 309.19667729207526,
+        "upper": 372.17459824046847
+      },
+      "source_upper_limit_central": 315.44410503442487,
+      "survey_efficiency_central": 0.2560110937144006,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.2358445826740734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 250.04899767746372,
+        "median": 298.05841192639286,
+        "upper": 357.081366944633
+      },
+      "source_upper_limit_central": 304.08414411184594,
+      "survey_efficiency_central": 0.26557514391779624,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.292583475106342e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 242.23723013658702,
+        "median": 287.7630549401397,
+        "upper": 342.85689479188477
+      },
+      "source_upper_limit_central": 293.1789464127993,
+      "survey_efficiency_central": 0.27545357988263025,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.350317255220091e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 234.96232924952164,
+        "median": 277.64677584124473,
+        "upper": 329.25311363519097
+      },
+      "source_upper_limit_central": 282.7178380058332,
+      "survey_efficiency_central": 0.2856458966482234,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.40906336786584e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 227.81301490374275,
+        "median": 267.92420597837236,
+        "upper": 315.9744331710208
+      },
+      "source_upper_limit_central": 272.6943251875281,
+      "survey_efficiency_central": 0.29614547453485796,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.468839563780751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 221.01535648546968,
+        "median": 258.81406464767997,
+        "upper": 303.97770502989704
+      },
+      "source_upper_limit_central": 263.1045850355398,
+      "survey_efficiency_central": 0.3069395021174367,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.5296639049521387e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 213.9833087844466,
+        "median": 249.95704971487325,
+        "upper": 292.5291602941997
+      },
+      "source_upper_limit_central": 253.9460729007975,
+      "survey_efficiency_central": 0.31800921122009507,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.591554770075099e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 207.65535162419954,
+        "median": 241.39255996471644,
+        "upper": 281.1298689444811
+      },
+      "source_upper_limit_central": 245.21627582326556,
+      "survey_efficiency_central": 0.32933046578779057,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.654530860105832e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 201.3636148020204,
+        "median": 233.4683643155755,
+        "upper": 270.83911274294286
+      },
+      "source_upper_limit_central": 236.91166634996188,
+      "survey_efficiency_central": 0.3408746879367698,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7186112039122693e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 195.32246652579576,
+        "median": 225.79471010079288,
+        "upper": 261.40443825143205
+      },
+      "source_upper_limit_central": 229.02691429281512,
+      "survey_efficiency_central": 0.3526100440421331,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7838151640239283e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 189.50918806288226,
+        "median": 218.6318256465902,
+        "upper": 252.2840120684834
+      },
+      "source_upper_limit_central": 221.55439687103504,
+      "survey_efficiency_central": 0.36450276535306797,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.85016244248244e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 184.17095638202468,
+        "median": 211.81863210057998,
+        "upper": 243.5380955270889
+      },
+      "source_upper_limit_central": 214.48401730296646,
+      "survey_efficiency_central": 0.37651845275515755,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.917673086794734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 178.74395869099214,
+        "median": 205.23258126201276,
+        "upper": 235.7276863388814
+      },
+      "source_upper_limit_central": 207.80330676570458,
+      "survey_efficiency_central": 0.38862322064333665,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.986367495990601e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 173.90758362599692,
+        "median": 199.1478876284135,
+        "upper": 228.3255404150181
+      },
+      "source_upper_limit_central": 201.49775278463576,
+      "survey_efficiency_central": 0.40078457064450757,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.056266426786464e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 168.93997424459948,
+        "median": 193.36170850966067,
+        "upper": 221.2850583691682
+      },
+      "source_upper_limit_central": 195.5512751132555,
+      "survey_efficiency_central": 0.41297194451354013,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.1273909998572523e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 164.54085957480635,
+        "median": 188.04685128026273,
+        "upper": 214.6130679151516
+      },
+      "source_upper_limit_central": 189.94676246363514,
+      "survey_efficiency_central": 0.4251569718177437,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.199762706218158e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 160.3526866124214,
+        "median": 182.84471972115773,
+        "upper": 208.6783039239819
+      },
+      "source_upper_limit_central": 184.66659148009302,
+      "survey_efficiency_central": 0.43731348311764867,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.273403413718469e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 156.25632989679113,
+        "median": 178.02610749342807,
+        "upper": 202.81612477042822
+      },
+      "source_upper_limit_central": 179.69307054750598,
+      "survey_efficiency_central": 0.4494173876018962,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.348335373649094e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 152.50123304868728,
+        "median": 173.46468812164875,
+        "upper": 197.38609262778775
+      },
+      "source_upper_limit_central": 175.00877886727946,
+      "survey_efficiency_central": 0.46144651061685776,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.424581227466035e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 148.8817072301673,
+        "median": 169.33684279716255,
+        "upper": 192.4412215560649
+      },
+      "source_upper_limit_central": 170.59679724100354,
+      "survey_efficiency_central": 0.47338045990123134,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.50216401363175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 145.56721054693497,
+        "median": 165.22307630395846,
+        "upper": 187.49528406715555
+      },
+      "source_upper_limit_central": 166.44084430873667,
+      "survey_efficiency_central": 0.4852005568165959,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.581107174576391e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 142.39944494781184,
+        "median": 161.4592218021042,
+        "upper": 182.7876997415431
+      },
+      "source_upper_limit_central": 162.5253385286302,
+      "survey_efficiency_central": 0.496889845403382,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.661434563781279e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 139.5584142353019,
+        "median": 157.8901770888627,
+        "upper": 178.527514445375
+      },
+      "source_upper_limit_central": 158.83540530035305,
+      "survey_efficiency_central": 0.508433180769199,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.743170452986402e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 136.73602775899195,
+        "median": 154.5985415151938,
+        "upper": 174.2476603198896
+      },
+      "source_upper_limit_central": 155.35684644888406,
+      "survey_efficiency_central": 0.5198173893301467,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.826339539524394e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 134.16098228271903,
+        "median": 151.43586385462498,
+        "upper": 170.33585110963008
+      },
+      "source_upper_limit_central": 152.0760903968699,
+      "survey_efficiency_central": 0.5310314732899365,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.910966953783079e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 131.62170014767034,
+        "median": 148.4510118669346,
+        "upper": 166.5816148229314
+      },
+      "source_upper_limit_central": 148.98014567922735,
+      "survey_efficiency_central": 0.5420667966690245,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.997078266798879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 129.4005826947814,
+        "median": 145.62903141200485,
+        "upper": 163.10945658541402
+      },
+      "source_upper_limit_central": 146.0565833244419,
+      "survey_efficiency_central": 0.5529171537323578,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.084699497983379e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 127.22468036956369,
+        "median": 142.99822572765646,
+        "upper": 159.62289139704046
+      },
+      "source_upper_limit_central": 143.2935691908282,
+      "survey_efficiency_central": 0.5635786085283191,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.17385712298528e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 125.13136788903203,
+        "median": 140.49466237051632,
+        "upper": 156.34394911425386
+      },
+      "source_upper_limit_central": 140.67995317195337,
+      "survey_efficiency_central": 0.5740490277027155,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.26457808169041e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 123.25624872998031,
+        "median": 138.0790882843521,
+        "upper": 153.38247684578528
+      },
+      "source_upper_limit_central": 138.20540201036064,
+      "survey_efficiency_central": 0.5843273067544015,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.356889786361796e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 121.39746944843054,
+        "median": 135.77881133400174,
+        "upper": 150.4697656263726
+      },
+      "source_upper_limit_central": 135.86054487054156,
+      "survey_efficiency_central": 0.5944123837614156,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.450820129922588e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 119.67769168081266,
+        "median": 133.6888304904553,
+        "upper": 147.77414641742178
+      },
+      "source_upper_limit_central": 133.6370942289638,
+      "survey_efficiency_central": 0.6043022021809308,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.546397494384208e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 117.96561977439536,
+        "median": 131.63407406910073,
+        "upper": 145.22971745207602
+      },
+      "source_upper_limit_central": 131.52791180240766,
+      "survey_efficiency_central": 0.6139927961218121,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.643650759422175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 116.4094101937062,
+        "median": 129.7002044872197,
+        "upper": 142.81353631828665
+      },
+      "source_upper_limit_central": 129.5270055838578,
+      "survey_efficiency_central": 0.6234776290210764,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.742609311102529e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 114.82754132528804,
+        "median": 127.83567063521471,
+        "upper": 140.6493095867993
+      },
+      "source_upper_limit_central": 127.6294613671155,
+      "survey_efficiency_central": 0.6327472471526935,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.843303050761042e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 113.3065538796164,
+        "median": 126.04530331104164,
+        "upper": 138.52597894717536
+      },
+      "source_upper_limit_central": 125.83132448217272,
+      "survey_efficiency_central": 0.6417892418120794,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9977678571428571,
+      "calibrated_sky_region_count": 447,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.945762404038232e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.26728645176483,
+        "median": 124.75406885317662,
+        "upper": 137.00298023210203
+      },
+      "source_upper_limit_central": 124.47587722425683,
+      "survey_efficiency_central": 0.6487778366095024,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9866071428571429,
+      "calibrated_sky_region_count": 442,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.050018330072777e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.49085111456638,
+        "median": 125.04392317997345,
+        "upper": 137.36100239074838
+      },
+      "source_upper_limit_central": 124.6897430805074,
+      "survey_efficiency_central": 0.647665063224018,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9821428571428571,
+      "calibrated_sky_region_count": 440,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.156102330856146e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.65231024695375,
+        "median": 124.12986653423522,
+        "upper": 136.33802218483427
+      },
+      "source_upper_limit_central": 123.80789412949535,
+      "survey_efficiency_central": 0.6522782000569074,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9732142857142857,
+      "calibrated_sky_region_count": 436,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.26404646075126e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.6400498853836,
+        "median": 124.1555942029452,
+        "upper": 136.23451904218095
+      },
+      "source_upper_limit_central": 123.75337268824116,
+      "survey_efficiency_central": 0.6525655711951097,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.96875,
+      "calibrated_sky_region_count": 434,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.37388333617795e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.01770565500878,
+        "median": 123.4666833454335,
+        "upper": 135.73275431599728
+      },
+      "source_upper_limit_central": 123.07627891374737,
+      "survey_efficiency_central": 0.6561556056810794,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9575892857142857,
+      "calibrated_sky_region_count": 429,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.48564614546849e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.08818959918152,
+        "median": 123.45053116921056,
+        "upper": 135.5996068595812
+      },
+      "source_upper_limit_central": 123.05082351099946,
+      "survey_efficiency_central": 0.6562913439454107,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9486607142857143,
+      "calibrated_sky_region_count": 425,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.599368658895695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.18774247644443,
+        "median": 123.59603949037515,
+        "upper": 135.95177096088696
+      },
+      "source_upper_limit_central": 123.1928898551747,
+      "survey_efficiency_central": 0.6555345071502208,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9375,
+      "calibrated_sky_region_count": 420,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.715085238876967e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.65944804089943,
+        "median": 124.23219194328314,
+        "upper": 136.62914389105038
+      },
+      "source_upper_limit_central": 123.78777709413257,
+      "survey_efficiency_central": 0.6523842032821445,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9308035714285714,
+      "calibrated_sky_region_count": 417,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.83283085035729e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.20464949697451,
+        "median": 123.68026770877294,
+        "upper": 135.9975421713954
+      },
+      "source_upper_limit_central": 123.2619232067415,
+      "survey_efficiency_central": 0.6551673723293534,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9196428571428571,
+      "calibrated_sky_region_count": 412,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.952641071374125e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.55877388869132,
+        "median": 124.22080112779777,
+        "upper": 136.58728049846516
+      },
+      "source_upper_limit_central": 123.80957415289393,
+      "survey_efficiency_central": 0.652269349023811,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.07455210380785e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.64569508265407,
+        "median": 124.27271362783796,
+        "upper": 136.64008134633085
+      },
+      "source_upper_limit_central": 123.85500658377889,
+      "survey_efficiency_central": 0.6520300839110369,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8950892857142857,
+      "calibrated_sky_region_count": 401,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.198600784320411e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.67181986184632,
+        "median": 125.45515491310786,
+        "upper": 138.10245234774092
+      },
+      "source_upper_limit_central": 125.09546664875286,
+      "survey_efficiency_central": 0.645564483662514,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8883928571428571,
+      "calibrated_sky_region_count": 398,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.324824595485925e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.47748824508939,
+        "median": 125.29901957518626,
+        "upper": 137.65441285307094
+      },
+      "source_upper_limit_central": 124.90564636349103,
+      "survey_efficiency_central": 0.6465455540785552,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.875,
+      "calibrated_sky_region_count": 392,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.453261677116422e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 113.48934640171012,
+        "median": 126.40725381093105,
+        "upper": 138.85722123466928
+      },
+      "source_upper_limit_central": 126.04943962721737,
+      "survey_efficiency_central": 0.6406786938082174,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8660714285714286,
+      "calibrated_sky_region_count": 388,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.583950837786181e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 114.08310865997362,
+        "median": 126.91358071788926,
+        "upper": 139.28716664078013
+      },
+      "source_upper_limit_central": 126.5976079568048,
+      "survey_efficiency_central": 0.6379045515866129,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8348214285714286,
+      "calibrated_sky_region_count": 374,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.716931566558164e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 117.61490874247056,
+        "median": 131.1874490409508,
+        "upper": 144.3997158510918
+      },
+      "source_upper_limit_central": 130.92301529122378,
+      "survey_efficiency_central": 0.6168295937577356,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.8035714285714286,
+      "calibrated_sky_region_count": 360,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.852244044915913e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 121.44961088616807,
+        "median": 135.5243239337763,
+        "upper": 149.30472173047428
+      },
+      "source_upper_limit_central": 135.33293639360124,
+      "survey_efficiency_central": 0.5967297576456171,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.7767857142857143,
+      "calibrated_sky_region_count": 348,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.989929158904987e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 124.48237946987125,
+        "median": 139.0307732896275,
+        "upper": 153.43404584820044
+      },
+      "source_upper_limit_central": 138.93030045013498,
+      "survey_efficiency_central": 0.581278454548573,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.7433035714285714,
+      "calibrated_sky_region_count": 333,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.130028511486972e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 129.08158699495195,
+        "median": 144.33829747050123,
+        "upper": 159.61732563443948
+      },
+      "source_upper_limit_central": 144.21108536673395,
+      "survey_efficiency_central": 0.5599929445801961,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.7053571428571429,
+      "calibrated_sky_region_count": 316,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.272584435110267e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 135.8097923412988,
+        "median": 152.09086912248597,
+        "upper": 168.5363761941283
+      },
+      "source_upper_limit_central": 152.0520279037486,
+      "survey_efficiency_central": 0.5311155099275886,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.6741071428571429,
+      "calibrated_sky_region_count": 302,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.417640004501306e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 141.04785773593784,
+        "median": 158.36724282227757,
+        "upper": 175.65170147941194
+      },
+      "source_upper_limit_central": 158.2862644429107,
+      "survey_efficiency_central": 0.51019708260757,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.6361607142857143,
+      "calibrated_sky_region_count": 285,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.565239049679883e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 148.10912749436721,
+        "median": 166.25954367509584,
+        "upper": 185.13048809611666
+      },
+      "source_upper_limit_central": 166.36345347566075,
+      "survey_efficiency_central": 0.4854262678998683,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.6004464285714286,
+      "calibrated_sky_region_count": 269,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.715426169203048e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 156.16279000398663,
+        "median": 175.6439315635834,
+        "upper": 196.07508928667403
+      },
+      "source_upper_limit_central": 175.823830694636,
+      "survey_efficiency_central": 0.45930742161953764,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.578125,
+      "calibrated_sky_region_count": 259,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.868246743640879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 161.34215179088866,
+        "median": 182.05451589020467,
+        "upper": 203.6880856329613
+      },
+      "source_upper_limit_central": 182.27645324973855,
+      "survey_efficiency_central": 0.44304784790264296,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.5133928571428571,
+      "calibrated_sky_region_count": 230,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.023746949288717e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 180.86761016616663,
+        "median": 204.98598867974064,
+        "upper": 230.91084689941206
+      },
+      "source_upper_limit_central": 205.44958719118443,
+      "survey_efficiency_central": 0.3930754568052428,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.47098214285714285,
+      "calibrated_sky_region_count": 211,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.181973772119805e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 195.67779700180233,
+        "median": 222.68788102548183,
+        "upper": 252.0364403337365
+      },
+      "source_upper_limit_central": 223.02724553673758,
+      "survey_efficiency_central": 0.3620956271117147,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.4419642857142857,
+      "calibrated_sky_region_count": 198,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.342975021982581e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 207.77301255274344,
+        "median": 237.49059034429592,
+        "upper": 270.1731972323327
+      },
+      "source_upper_limit_central": 238.1330018716306,
+      "survey_efficiency_central": 0.33912641129496546,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.37723214285714285,
+      "calibrated_sky_region_count": 169,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.50679934704695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 241.38620554998428,
+        "median": 277.94329686807873,
+        "upper": 319.87183870559454
+      },
+      "source_upper_limit_central": 278.8291068007614,
+      "survey_efficiency_central": 0.28962969921690707,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.3236607142857143,
+      "calibrated_sky_region_count": 145,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.673496248503664e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 281.47863098469816,
+        "median": 327.9658099690913,
+        "upper": 380.36464527119574
+      },
+      "source_upper_limit_central": 328.4516054666662,
+      "survey_efficiency_central": 0.24587241770635596,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.24776785714285715,
+      "calibrated_sky_region_count": 111,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.843116095521851e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 375.3592297895909,
+        "median": 445.0615757036751,
+        "upper": 531.5988568624764
+      },
+      "source_upper_limit_central": 446.5890384729308,
+      "survey_efficiency_central": 0.18083110730116664,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.16964285714285715,
+      "calibrated_sky_region_count": 76,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0015710140468418e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 548.7868935634017,
+        "median": 672.341242141151,
+        "upper": 834.7792921878041
+      },
+      "source_upper_limit_central": 673.0801293526641,
+      "survey_efficiency_central": 0.11998153981055976,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.11830357142857142,
+      "calibrated_sky_region_count": 53,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0191330534394506e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 761.9764859126915,
+        "median": 963.3127931118953,
+        "upper": 1254.2382511755336
+      },
+      "source_upper_limit_central": 965.0984526891176,
+      "survey_efficiency_central": 0.0836776705118574,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.08928571428571429,
+      "calibrated_sky_region_count": 40,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0370030342793522e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1017.5690444010276,
+        "median": 1324.5598206521959,
+        "upper": 1800.3055411533212
+      },
+      "source_upper_limit_central": 1326.410694203204,
+      "survey_efficiency_central": 0.06088400122869599,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.05803571428571429,
+      "calibrated_sky_region_count": 26,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.055186356163523e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1597.912631525881,
+        "median": 2220.6849457830613,
+        "upper": 3253.80147456212
+      },
+      "source_upper_limit_central": 2208.190029782542,
+      "survey_efficiency_central": 0.036571666951859295,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.029017857142857144,
+      "calibrated_sky_region_count": 13,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0736885133681449e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3061.9501500717106,
+        "median": 4782.541310010069,
+        "upper": 8719.872453627671
+      },
+      "source_upper_limit_central": 4727.708294387639,
+      "survey_efficiency_central": 0.017081677909673892,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0925150965087394e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 31523.311017177897,
+        "median": 88711.30683919779,
+        "upper": 139479.19191669795
+      },
+      "source_upper_limit_central": 108502.29296571255,
+      "survey_efficiency_central": 0.0007442901723850499,
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.3568463155221738e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 445008.7555896392,
+        "median": 1407615.9097884102,
+        "upper": 3885395.9318952058
+      },
+      "source_upper_limit_central": 2197268.034546087,
+      "survey_efficiency_central": 3.675345431960751e-05,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.013392857142857142,
+      "calibrated_sky_region_count": 6,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.380637927009246e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 97133.15862490577,
+        "median": 210656.89615790744,
+        "upper": 633095.6498576455
+      },
+      "source_upper_limit_central": 221564.55604537486,
+      "survey_efficiency_central": 0.0003644860521783316,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.017857142857142856,
+      "calibrated_sky_region_count": 8,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.404846712328519e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 74422.44478692948,
+        "median": 154629.5941751879,
+        "upper": 406749.971240746
+      },
+      "source_upper_limit_central": 165831.16685268685,
+      "survey_efficiency_central": 0.0004869843942385244,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.024553571428571428,
+      "calibrated_sky_region_count": 11,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4294799864114056e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 53351.061248999,
+        "median": 103734.6301633819,
+        "upper": 236483.74184089102
+      },
+      "source_upper_limit_central": 113902.19884074769,
+      "survey_efficiency_central": 0.0007090046650331484,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.03125,
+      "calibrated_sky_region_count": 14,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4545451924529364e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 38460.74352074061,
+        "median": 71794.4639741926,
+        "upper": 150012.9930723269
+      },
+      "source_upper_limit_central": 77333.52156709945,
+      "survey_efficiency_central": 0.0010442714711440281,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.04241071428571429,
+      "calibrated_sky_region_count": 19,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4800499041607713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 30531.696479021575,
+        "median": 54358.31736675255,
+        "upper": 104801.05669651317
+      },
+      "source_upper_limit_central": 60296.52709078551,
+      "survey_efficiency_central": 0.0013393340252255534,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.05133928571428571,
+      "calibrated_sky_region_count": 23,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.506001828043707e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 24337.350063916285,
+        "median": 42502.151263081396,
+        "upper": 79989.14584073673
+      },
+      "source_upper_limit_central": 47002.3590669455,
+      "survey_efficiency_central": 0.0017181518531995562,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.060267857142857144,
+      "calibrated_sky_region_count": 27,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.532408805740256e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 20066.080544651526,
+        "median": 34439.46158256284,
+        "upper": 62820.78073484532
+      },
+      "source_upper_limit_central": 38122.28757154387,
+      "survey_efficiency_central": 0.002118372098842884,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.06919642857142858,
+      "calibrated_sky_region_count": 31,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.5592788163880807e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 17609.203190147968,
+        "median": 29578.40398706991,
+        "upper": 52586.52404267289
+      },
+      "source_upper_limit_central": 33008.10898187436,
+      "survey_efficiency_central": 0.0024465863942696423,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.078125,
+      "calibrated_sky_region_count": 35,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.58661997903498e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 14917.72757808383,
+        "median": 24713.096326535615,
+        "upper": 43614.506194664296
+      },
+      "source_upper_limit_central": 27524.015501424354,
+      "survey_efficiency_central": 0.00293406281258068,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.08482142857142858,
+      "calibrated_sky_region_count": 38,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.614440555092116e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 13518.31674964032,
+        "median": 22071.668750721983,
+        "upper": 38361.18805871485
+      },
+      "source_upper_limit_central": 24773.958706523917,
+      "survey_efficiency_central": 0.0032597612393031462,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.10491071428571429,
+      "calibrated_sky_region_count": 47,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6427489508303206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 11204.614959758508,
+        "median": 18065.825245650776,
+        "upper": 30548.29823677686
+      },
+      "source_upper_limit_central": 20264.852557196125,
+      "survey_efficiency_central": 0.003985086499282039,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.11160714285714286,
+      "calibrated_sky_region_count": 50,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6715537199201139e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 10196.526013482806,
+        "median": 16429.196079609934,
+        "upper": 27588.389962730635
+      },
+      "source_upper_limit_central": 18508.84747045355,
+      "survey_efficiency_central": 0.004363166883542558,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.12276785714285714,
+      "calibrated_sky_region_count": 55,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.700863566016285e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 9388.242742642577,
+        "median": 14855.032288740162,
+        "upper": 24817.663110406324
+      },
+      "source_upper_limit_central": 16823.64009518808,
+      "survey_efficiency_central": 0.004800220991337164,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.13392857142857142,
+      "calibrated_sky_region_count": 60,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.7306873453877937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 8437.061170242887,
+        "median": 13197.583045963518,
+        "upper": 21742.278142090425
+      },
+      "source_upper_limit_central": 14965.11100413639,
+      "survey_efficiency_central": 0.005396364271090399,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.15625,
+      "calibrated_sky_region_count": 70,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.761034069593781e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 7261.627531083096,
+        "median": 11278.738431196507,
+        "upper": 18489.593143393395
+      },
+      "source_upper_limit_central": 12789.610560766481,
+      "survey_efficiency_central": 0.006314280638329585,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.19196428571428573,
+      "calibrated_sky_region_count": 86,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.79191290820651e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 6062.972443093356,
+        "median": 9336.559950280054,
+        "upper": 15022.616044859
+      },
+      "source_upper_limit_central": 10579.636967089496,
+      "survey_efficiency_central": 0.007633266678888702,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.22098214285714285,
+      "calibrated_sky_region_count": 99,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8233331915820185e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 5323.944396516467,
+        "median": 8135.05247439321,
+        "upper": 12959.62557648395
+      },
+      "source_upper_limit_central": 9273.193852875678,
+      "survey_efficiency_central": 0.008708670563441316,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.25223214285714285,
+      "calibrated_sky_region_count": 113,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8553044136794234e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 4692.064761321974,
+        "median": 7091.629025886232,
+        "upper": 11246.60457074548
+      },
+      "source_upper_limit_central": 8075.954633835274,
+      "survey_efficiency_central": 0.009999708269444768,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.28794642857142855,
+      "calibrated_sky_region_count": 129,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8878362349295893e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 4063.720895599419,
+        "median": 6117.471350302161,
+        "upper": 9628.02785156079
+      },
+      "source_upper_limit_central": 6948.84134403328,
+      "survey_efficiency_central": 0.011621677102322486,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.31473214285714285,
+      "calibrated_sky_region_count": 141,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9209384851541327e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3688.3112978674694,
+        "median": 5528.710914329646,
+        "upper": 8593.47438307183
+      },
+      "source_upper_limit_central": 6285.633992039397,
+      "survey_efficiency_central": 0.0128478989451025,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.3638392857142857,
+      "calibrated_sky_region_count": 163,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9546211665356106e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3174.2801298713835,
+        "median": 4748.373099114453,
+        "upper": 7338.03920439196
+      },
+      "source_upper_limit_central": 5393.774999493934,
+      "survey_efficiency_central": 0.014972294977673401,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.39732142857142855,
+      "calibrated_sky_region_count": 178,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.988894456639751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2846.108469252356,
+        "median": 4215.51835419869,
+        "upper": 6495.4973916536455
+      },
+      "source_upper_limit_central": 4792.593756062672,
+      "survey_efficiency_central": 0.016850414294653046,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.421875,
+      "calibrated_sky_region_count": 189,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.023768711490756e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2594.6469704632837,
+        "median": 3820.057125205757,
+        "upper": 5810.7723412749565
+      },
+      "source_upper_limit_central": 4327.503455421642,
+      "survey_efficiency_central": 0.018661380901833377,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.48214285714285715,
+      "calibrated_sky_region_count": 216,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0592544687004467e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2242.2857846049524,
+        "median": 3301.2981253162307,
+        "upper": 5013.706298015996
+      },
+      "source_upper_limit_central": 3725.1428355190483,
+      "survey_efficiency_central": 0.02167895135875265,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.5290178571428571,
+      "calibrated_sky_region_count": 237,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0953624506523206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2022.8405922531617,
+        "median": 2955.0186436975773,
+        "upper": 4475.313407035404
+      },
+      "source_upper_limit_central": 3339.8635397083185,
+      "survey_efficiency_central": 0.02417978740013916,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.5535714285714286,
+      "calibrated_sky_region_count": 248,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1321035677414265e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1854.6026388900968,
+        "median": 2690.5348269159003,
+        "upper": 4021.1228327621398
+      },
+      "source_upper_limit_central": 3033.081220018613,
+      "survey_efficiency_central": 0.026625462517330084,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.6160714285714286,
+      "calibrated_sky_region_count": 276,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1694889216710542e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1656.6554353589913,
+        "median": 2392.850014252318,
+        "upper": 3553.543852064039
+      },
+      "source_upper_limit_central": 2690.4815063319347,
+      "survey_efficiency_central": 0.030015887544874307,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.6651785714285714,
+      "calibrated_sky_region_count": 298,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2075298088072337e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1495.2474938951145,
+        "median": 2146.99093021696,
+        "upper": 3180.900211263779
+      },
+      "source_upper_limit_central": 2411.5671745001086,
+      "survey_efficiency_central": 0.03348743140541522,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.7455357142857143,
+      "calibrated_sky_region_count": 334,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.246237723592014e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1311.0252506490572,
+        "median": 1882.534927062427,
+        "upper": 2782.59824007051
+      },
+      "source_upper_limit_central": 2099.8904891569223,
+      "survey_efficiency_central": 0.03845781042041212,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8236607142857143,
+      "calibrated_sky_region_count": 369,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2856243620166782e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1173.1527664679447,
+        "median": 1680.5644316195371,
+        "upper": 2458.109928994058
+      },
+      "source_upper_limit_central": 1872.094888654895,
+      "survey_efficiency_central": 0.04313733818997157,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8794642857142857,
+      "calibrated_sky_region_count": 394,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.3257016251557713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1078.1831162827525,
+        "median": 1532.1450568218047,
+        "upper": 2230.7360120581825
+      },
+      "source_upper_limit_central": 1708.4771011535597,
+      "survey_efficiency_central": 0.047268523693467304,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.36648162276314e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1000.5769948596542,
+        "median": 1415.18134997674,
+        "upper": 2041.7191500082831
+      },
+      "source_upper_limit_central": 1572.8989224583206,
+      "survey_efficiency_central": 0.05134289888723814,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9419642857142857,
+      "calibrated_sky_region_count": 422,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.407976676931029e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 932.3707606319352,
+        "median": 1310.5007371839342,
+        "upper": 1881.3520018697845
+      },
+      "source_upper_limit_central": 1456.4584172895482,
+      "survey_efficiency_central": 0.05544764572538333,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9620535714285714,
+      "calibrated_sky_region_count": 431,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4501993258132866e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 880.6362539897767,
+        "median": 1228.7901567569434,
+        "upper": 1743.6977866602765
+      },
+      "source_upper_limit_central": 1362.892372622632,
+      "survey_efficiency_central": 0.05925426831776984,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9933035714285714,
+      "calibrated_sky_region_count": 445,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4931623274139544e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 832.1354636818279,
+        "median": 1150.4706735483592,
+        "upper": 1615.9644554087006
+      },
+      "source_upper_limit_central": 1275.6293284128835,
+      "survey_efficiency_central": 0.0633077246946808,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.5368786634421904e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 791.421829923604,
+        "median": 1086.8027997714025,
+        "upper": 1513.588318277704
+      },
+      "source_upper_limit_central": 1202.4674655795195,
+      "survey_efficiency_central": 0.067159563686576,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.581361543234833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 752.6258934711524,
+        "median": 1028.342858141215,
+        "upper": 1415.384774551876
+      },
+      "source_upper_limit_central": 1135.7361108093432,
+      "survey_efficiency_central": 0.07110559360314303,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.626624407747739e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 721.59194233405,
+        "median": 975.9785177299873,
+        "upper": 1327.1214086889795
+      },
+      "source_upper_limit_central": 1073.3776772732242,
+      "survey_efficiency_central": 0.07523650998665864,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.672680933617103e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 687.4382144367898,
+        "median": 923.8351265104592,
+        "upper": 1247.855705654899
+      },
+      "source_upper_limit_central": 1014.618583958527,
+      "survey_efficiency_central": 0.0795936439687018,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.719545037292007e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 657.4724611529729,
+        "median": 874.4963301921439,
+        "upper": 1170.0810024578564
+      },
+      "source_upper_limit_central": 958.8555189461924,
+      "survey_efficiency_central": 0.0842224805926733,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.7672308792393684e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 628.2084010492941,
+        "median": 828.8526108891051,
+        "upper": 1094.6528037066225
+      },
+      "source_upper_limit_central": 905.6421745409742,
+      "survey_efficiency_central": 0.08917118990903361,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.815752868222741e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 601.9227078339397,
+        "median": 784.8262896469919,
+        "upper": 1025.1614779403287
+      },
+      "source_upper_limit_central": 854.6712738761561,
+      "survey_efficiency_central": 0.0944891829221878,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.8651256656560203e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 573.236513793639,
+        "median": 742.5643986359463,
+        "upper": 961.67131186923
+      },
+      "source_upper_limit_central": 805.7527044187275,
+      "survey_efficiency_central": 0.10022577633652731,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.915364190033557e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 547.8541789704639,
+        "median": 703.1523778242583,
+        "upper": 898.730728831904
+      },
+      "source_upper_limit_central": 758.7893804115456,
+      "survey_efficiency_central": 0.1064289938952796,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.966483621437937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 521.241343094015,
+        "median": 662.0996488530822,
+        "upper": 840.0419598605897
+      },
+      "source_upper_limit_central": 713.7528397854566,
+      "survey_efficiency_central": 0.11314447499767256,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.0184994061267556e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 496.0900995459556,
+        "median": 624.307694655108,
+        "upper": 783.1178309908662
+      },
+      "source_upper_limit_central": 670.6604748053173,
+      "survey_efficiency_central": 0.1204144173832012,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.071427261199931e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 470.11767719088164,
+        "median": 588.6835026816163,
+        "upper": 733.9785257810614
+      },
+      "source_upper_limit_central": 629.5557959719177,
+      "survey_efficiency_central": 0.12827646231252499,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1252831793487403e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 447.4962280098086,
+        "median": 554.9526961050698,
+        "upper": 684.9783189376351
+      },
+      "source_upper_limit_central": 590.4924416717678,
+      "survey_efficiency_central": 0.13676244543789304,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1800834336881833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 424.43768765640004,
+        "median": 521.7187828723781,
+        "upper": 639.4503529625346
+      },
+      "source_upper_limit_central": 553.5219964890158,
+      "survey_efficiency_central": 0.1458969848495008,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.2358445826740734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 401.95018573109127,
+        "median": 491.21198080304305,
+        "upper": 596.5545302058465
+      },
+      "source_upper_limit_central": 518.6852296171089,
+      "survey_efficiency_central": 0.15569595146412396,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.292583475106342e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 380.5329330957544,
+        "median": 461.4872622814448,
+        "upper": 558.0613103488315
+      },
+      "source_upper_limit_central": 486.0061672414416,
+      "survey_efficiency_central": 0.1661649497042375,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.350317255220091e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 360.4368890834796,
+        "median": 434.3507451959366,
+        "upper": 521.3966505279099
+      },
+      "source_upper_limit_central": 455.4884279970228,
+      "survey_efficiency_central": 0.17729800664914197,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.40906336786584e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 341.243867160596,
+        "median": 407.9286505675936,
+        "upper": 489.04283528819707
+      },
+      "source_upper_limit_central": 427.11338196550554,
+      "survey_efficiency_central": 0.18907670362373585,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.468839563780751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 323.1834365246558,
+        "median": 384.3272995120775,
+        "upper": 457.4910866518776
+      },
+      "source_upper_limit_central": 400.8398394184265,
+      "survey_efficiency_central": 0.20146996978342516,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.5296639049521387e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 306.0648442930452,
+        "median": 362.72446905115874,
+        "upper": 429.75505966527845
+      },
+      "source_upper_limit_central": 376.6050670577526,
+      "survey_efficiency_central": 0.21443468874846344,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.591554770075099e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 290.20552640892333,
+        "median": 341.83361913235126,
+        "upper": 403.24308785771825
+      },
+      "source_upper_limit_central": 354.326946197378,
+      "survey_efficiency_central": 0.22791715730995393,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.654530860105832e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 274.8212852613855,
+        "median": 323.2463301660428,
+        "upper": 380.3520755996875
+      },
+      "source_upper_limit_central": 333.9070484620341,
+      "survey_efficiency_central": 0.2418553028682341,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7186112039122693e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 260.5696633499625,
+        "median": 305.7810039890261,
+        "upper": 359.44237867751457
+      },
+      "source_upper_limit_central": 315.2343483259825,
+      "survey_efficiency_central": 0.2561814433118586,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7838151640239283e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 247.80321492698988,
+        "median": 290.16217959097287,
+        "upper": 339.1093845186351
+      },
+      "source_upper_limit_central": 298.18925356381067,
+      "survey_efficiency_central": 0.27082528753284474,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.85016244248244e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 236.1125580574054,
+        "median": 275.45108153911417,
+        "upper": 322.4301308296714
+      },
+      "source_upper_limit_central": 282.647633881603,
+      "survey_efficiency_central": 0.28571684548207255,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.917673086794734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 225.74620835252742,
+        "median": 262.2238996153725,
+        "upper": 306.49070098315707
+      },
+      "source_upper_limit_central": 268.4845660289608,
+      "survey_efficiency_central": 0.30078894861655586,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.986367495990601e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 215.1800966826232,
+        "median": 250.25558929959897,
+        "upper": 291.5355697645822
+      },
+      "source_upper_limit_central": 255.57757971990048,
+      "survey_efficiency_central": 0.31597916540304116,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.056266426786464e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 206.25396654801648,
+        "median": 239.11516821663767,
+        "upper": 278.5026961040991
+      },
+      "source_upper_limit_central": 243.80926782882898,
+      "survey_efficiency_central": 0.33123101125228976,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.1273909998572523e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 197.88011870456876,
+        "median": 228.70107140984945,
+        "upper": 266.0873864325638
+      },
+      "source_upper_limit_central": 233.06920362724142,
+      "survey_efficiency_central": 0.34649447064993694,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.199762706218158e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 190.03150715181334,
+        "median": 219.54514181797532,
+        "upper": 254.52255188974948
+      },
+      "source_upper_limit_central": 223.2551782877229,
+      "survey_efficiency_central": 0.36172594497022836,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.273403413718469e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 183.0636081063922,
+        "median": 211.06131699389783,
+        "upper": 244.51938000346453
+      },
+      "source_upper_limit_central": 214.2738275675552,
+      "survey_efficiency_central": 0.37688779470821115,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.348335373649094e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 176.3602077175527,
+        "median": 203.3182790628275,
+        "upper": 234.68289500632608
+      },
+      "source_upper_limit_central": 206.04075330348,
+      "survey_efficiency_central": 0.3919476561837022,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.424581227466035e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 170.45589792708836,
+        "median": 196.01967643999862,
+        "upper": 225.83828473925576
+      },
+      "source_upper_limit_central": 198.48026082931338,
+      "survey_efficiency_central": 0.40687769150541353,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.50216401363175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 165.01597070946355,
+        "median": 189.33674849158461,
+        "upper": 217.5257591138966
+      },
+      "source_upper_limit_central": 191.52482895857077,
+      "survey_efficiency_central": 0.42165389612796456,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.581107174576391e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 159.89229377283044,
+        "median": 183.15035203373736,
+        "upper": 209.81833646376637
+      },
+      "source_upper_limit_central": 185.11441087052347,
+      "survey_efficiency_central": 0.43625555652773157,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.661434563781279e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 155.34508222609975,
+        "median": 177.51680517550923,
+        "upper": 203.0808428783844
+      },
+      "source_upper_limit_central": 179.19564186163564,
+      "survey_efficiency_central": 0.45066492408325054,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.743170452986402e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 150.9650236438362,
+        "median": 172.21292748249624,
+        "upper": 196.43667559905737
+      },
+      "source_upper_limit_central": 173.72101291889274,
+      "survey_efficiency_central": 0.4648671394365371,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.826339539524394e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 147.0423853456476,
+        "median": 167.3059350164296,
+        "upper": 190.24980002098468
+      },
+      "source_upper_limit_central": 168.64806183375535,
+      "survey_efficiency_central": 0.47885039091187237,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.910966953783079e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 143.516290571655,
+        "median": 162.75739487775152,
+        "upper": 184.36809007367128
+      },
+      "source_upper_limit_central": 163.93863308951455,
+      "survey_efficiency_central": 0.4926062198623307,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.997078266798879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 139.99292251346546,
+        "median": 158.59429372525767,
+        "upper": 178.88174046092655
+      },
+      "source_upper_limit_central": 159.55825555931304,
+      "survey_efficiency_central": 0.5061298147973502,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.084699497983379e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 136.98049111634052,
+        "median": 154.5583860925241,
+        "upper": 173.76163472810916
+      },
+      "source_upper_limit_central": 155.4756748055095,
+      "survey_efficiency_central": 0.5194200985887063,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.17385712298528e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 133.9171321293294,
+        "median": 150.83289494995768,
+        "upper": 169.1455452080543
+      },
+      "source_upper_limit_central": 151.662552142768,
+      "survey_efficiency_central": 0.5324794367142283,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.26457808169041e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 131.16832150432725,
+        "median": 147.3864268489745,
+        "upper": 164.7548241675489
+      },
+      "source_upper_limit_central": 148.09331160999298,
+      "survey_efficiency_central": 0.5453128804918566,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.356889786361796e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 128.45551911233213,
+        "median": 144.1042492722935,
+        "upper": 160.66946373864272
+      },
+      "source_upper_limit_central": 144.74508968422072,
+      "survey_efficiency_central": 0.5579269770864432,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.450820129922588e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 125.98694587006736,
+        "median": 141.01388436132507,
+        "upper": 156.63142666753353
+      },
+      "source_upper_limit_central": 141.59773018975503,
+      "survey_efficiency_central": 0.5703282829986096,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.546397494384208e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 123.59565609427028,
+        "median": 138.15540239533397,
+        "upper": 153.08400441090112
+      },
+      "source_upper_limit_central": 138.6337700298418,
+      "survey_efficiency_central": 0.5825217789160598,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.643650759422175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 121.45400282185057,
+        "median": 135.46524781017882,
+        "upper": 149.76215812930408
+      },
+      "source_upper_limit_central": 135.83837429719725,
+      "survey_efficiency_central": 0.5945093995231187,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.742609311102529e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 119.2150995960142,
+        "median": 132.90807215207985,
+        "upper": 146.66752050250292
+      },
+      "source_upper_limit_central": 133.19919489991216,
+      "survey_efficiency_central": 0.606288877318707,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.843303050761042e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 117.14656052822112,
+        "median": 130.4399045746773,
+        "upper": 143.8128108319694
+      },
+      "source_upper_limit_central": 130.706142864058,
+      "survey_efficiency_central": 0.6178530600479548,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9977678571428571,
+      "calibrated_sky_region_count": 447,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.945762404038232e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 115.52182179493343,
+        "median": 128.48447952343977,
+        "upper": 141.54179836701775
+      },
+      "source_upper_limit_central": 128.74609731465583,
+      "survey_efficiency_central": 0.627259326845866,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9866071428571429,
+      "calibrated_sky_region_count": 442,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.050018330072777e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 115.38121406600754,
+        "median": 128.36353324439483,
+        "upper": 141.2219888329745
+      },
+      "source_upper_limit_central": 128.58066337248,
+      "survey_efficiency_central": 0.6280663687484737,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9821428571428571,
+      "calibrated_sky_region_count": 440,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.156102330856146e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 114.27818137140676,
+        "median": 127.02769743689902,
+        "upper": 139.70800200455952
+      },
+      "source_upper_limit_central": 127.17929112635876,
+      "survey_efficiency_central": 0.6349869512591261,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9732142857142857,
+      "calibrated_sky_region_count": 436,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.26404646075126e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 113.84991096823254,
+        "median": 126.53278568622983,
+        "upper": 139.25943985857168
+      },
+      "source_upper_limit_central": 126.71187632306427,
+      "survey_efficiency_central": 0.6373292912948827,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.96875,
+      "calibrated_sky_region_count": 434,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.37388333617795e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.88904330906925,
+        "median": 125.45644930630625,
+        "upper": 137.95124432700666
+      },
+      "source_upper_limit_central": 125.550558110868,
+      "survey_efficiency_central": 0.6432244631227395,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9575892857142857,
+      "calibrated_sky_region_count": 429,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.48564614546849e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.49081796885628,
+        "median": 125.02190907751128,
+        "upper": 137.5163128912085
+      },
+      "source_upper_limit_central": 125.07643483948922,
+      "survey_efficiency_central": 0.6456627136779138,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9486607142857143,
+      "calibrated_sky_region_count": 425,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.599368658895695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.27470863477438,
+        "median": 124.75767576737867,
+        "upper": 137.10750445100857
+      },
+      "source_upper_limit_central": 124.82331509300757,
+      "survey_efficiency_central": 0.6469720041920861,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9375,
+      "calibrated_sky_region_count": 420,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.715085238876967e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.55490693526887,
+        "median": 125.00210838493777,
+        "upper": 137.53553048138983
+      },
+      "source_upper_limit_central": 125.0575576379757,
+      "survey_efficiency_central": 0.6457601752419014,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9308035714285714,
+      "calibrated_sky_region_count": 417,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.83283085035729e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.62908653513034,
+        "median": 124.08170786244824,
+        "upper": 136.18465667039305
+      },
+      "source_upper_limit_central": 124.03408593741077,
+      "survey_efficiency_central": 0.6510886884462914,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9196428571428571,
+      "calibrated_sky_region_count": 412,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.952641071374125e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.80674974247853,
+        "median": 124.16990367972926,
+        "upper": 136.5096271881963
+      },
+      "source_upper_limit_central": 124.1847569099691,
+      "survey_efficiency_central": 0.6502987350868703,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.07455210380785e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.41773906492041,
+        "median": 123.80584106870432,
+        "upper": 135.99370460433835
+      },
+      "source_upper_limit_central": 123.7725105649678,
+      "survey_efficiency_central": 0.6524646706041741,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8950892857142857,
+      "calibrated_sky_region_count": 401,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.198600784320411e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.20041102691683,
+        "median": 124.63481931924474,
+        "upper": 137.0609173545565
+      },
+      "source_upper_limit_central": 124.62157922960115,
+      "survey_efficiency_central": 0.6480193144305882,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8883928571428571,
+      "calibrated_sky_region_count": 398,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.324824595485925e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 111.71432975710029,
+        "median": 123.92633112279299,
+        "upper": 136.15468652103854
+      },
+      "source_upper_limit_central": 123.95243166708597,
+      "survey_efficiency_central": 0.6515175963027714,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.875,
+      "calibrated_sky_region_count": 392,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.453261677116422e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.29249602654967,
+        "median": 124.83636677361989,
+        "upper": 136.87343719850432
+      },
+      "source_upper_limit_central": 124.69696809735994,
+      "survey_efficiency_central": 0.6476275371231993,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8660714285714286,
+      "calibrated_sky_region_count": 388,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.583950837786181e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 112.39994323713587,
+        "median": 124.8975646214156,
+        "upper": 137.01928106461713
+      },
+      "source_upper_limit_central": 124.81171801849526,
+      "survey_efficiency_central": 0.6470321186000849,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8348214285714286,
+      "calibrated_sky_region_count": 374,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.716931566558164e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 115.99053362552179,
+        "median": 128.8703081935812,
+        "upper": 141.57446831920555
+      },
+      "source_upper_limit_central": 128.79149035794123,
+      "survey_efficiency_central": 0.627038246946134,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.8035714285714286,
+      "calibrated_sky_region_count": 360,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.852244044915913e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 119.42969451275741,
+        "median": 132.8688638597369,
+        "upper": 146.04737929994994
+      },
+      "source_upper_limit_central": 132.796723576845,
+      "survey_efficiency_central": 0.6081263766187115,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.7767857142857143,
+      "calibrated_sky_region_count": 348,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.989929158904987e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 122.18702866590652,
+        "median": 136.03961961639124,
+        "upper": 149.61452325473175
+      },
+      "source_upper_limit_central": 135.90416341543497,
+      "survey_efficiency_central": 0.594221606653528,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.7433035714285714,
+      "calibrated_sky_region_count": 333,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.130028511486972e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 126.23331715441971,
+        "median": 140.8034905014947,
+        "upper": 155.23676135797498
+      },
+      "source_upper_limit_central": 140.6825216900974,
+      "survey_efficiency_central": 0.5740385469740116,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.7053571428571429,
+      "calibrated_sky_region_count": 316,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.272584435110267e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 132.61879693697324,
+        "median": 148.1334139192174,
+        "upper": 163.51893905492773
+      },
+      "source_upper_limit_central": 148.07257523325472,
+      "survey_efficiency_central": 0.545389247187798,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.6741071428571429,
+      "calibrated_sky_region_count": 302,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.417640004501306e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 137.54329057988062,
+        "median": 153.84521872494983,
+        "upper": 170.25166891231683
+      },
+      "source_upper_limit_central": 153.73049493388166,
+      "survey_efficiency_central": 0.5253166612802258,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.6361607142857143,
+      "calibrated_sky_region_count": 285,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.565239049679883e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 144.04726286498408,
+        "median": 161.22638967627387,
+        "upper": 178.81353352535422
+      },
+      "source_upper_limit_central": 161.1117156100485,
+      "survey_efficiency_central": 0.5012496455011778,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.6004464285714286,
+      "calibrated_sky_region_count": 269,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.715426169203048e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 151.52980057542163,
+        "median": 170.07082378266927,
+        "upper": 189.37132802017993
+      },
+      "source_upper_limit_central": 169.89981995880683,
+      "survey_efficiency_central": 0.4753224009019163,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.578125,
+      "calibrated_sky_region_count": 259,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.868246743640879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 156.20642379188465,
+        "median": 175.7786498809927,
+        "upper": 196.3146812186436
+      },
+      "source_upper_limit_central": 175.67357935149064,
+      "survey_efficiency_central": 0.4597002613241177,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.5133928571428571,
+      "calibrated_sky_region_count": 230,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.023746949288717e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 174.9188881103701,
+        "median": 197.97607144298982,
+        "upper": 222.15042698306752
+      },
+      "source_upper_limit_central": 197.75742765076114,
+      "survey_efficiency_central": 0.40836489073998405,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.47098214285714285,
+      "calibrated_sky_region_count": 211,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.181973772119805e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 189.07887510833459,
+        "median": 214.25595508720397,
+        "upper": 242.01200128358516
+      },
+      "source_upper_limit_central": 214.22903225983418,
+      "survey_efficiency_central": 0.3769666019761251,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.4419642857142857,
+      "calibrated_sky_region_count": 198,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.342975021982581e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 200.1366067154497,
+        "median": 228.38155272593366,
+        "upper": 259.32380753660954
+      },
+      "source_upper_limit_central": 228.25711529583265,
+      "survey_efficiency_central": 0.35379922431315236,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.37723214285714285,
+      "calibrated_sky_region_count": 169,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.50679934704695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 232.18063936298225,
+        "median": 266.78125570000157,
+        "upper": 306.41416250681004
+      },
+      "source_upper_limit_central": 266.9482738225778,
+      "survey_efficiency_central": 0.3025199945263446,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.3236607142857143,
+      "calibrated_sky_region_count": 145,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.673496248503664e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 270.6853467990533,
+        "median": 314.15868637437757,
+        "upper": 366.0117577814667
+      },
+      "source_upper_limit_central": 314.2194010429774,
+      "survey_efficiency_central": 0.257008924552618,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.24776785714285715,
+      "calibrated_sky_region_count": 111,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.843116095521851e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 361.85922306180163,
+        "median": 427.9958714288007,
+        "upper": 509.9288835582816
+      },
+      "source_upper_limit_central": 428.20424634966884,
+      "survey_efficiency_central": 0.18859502451005022,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.16964285714285715,
+      "calibrated_sky_region_count": 76,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0015710140468418e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 528.8239632687207,
+        "median": 647.3611757865967,
+        "upper": 805.5331121602014
+      },
+      "source_upper_limit_central": 646.974947186168,
+      "survey_efficiency_central": 0.12482274729006682,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.11830357142857142,
+      "calibrated_sky_region_count": 53,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0191330534394506e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 735.4141408202761,
+        "median": 925.9653656690905,
+        "upper": 1209.6731870464623
+      },
+      "source_upper_limit_central": 926.910282696635,
+      "survey_efficiency_central": 0.08712514236078886,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.08928571428571429,
+      "calibrated_sky_region_count": 40,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0370030342793522e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 980.0156547940778,
+        "median": 1277.1466319958959,
+        "upper": 1739.6270149947195
+      },
+      "source_upper_limit_central": 1275.3450977739622,
+      "survey_efficiency_central": 0.06332183381312256,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.05803571428571429,
+      "calibrated_sky_region_count": 26,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.055186356163523e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1555.4584759653558,
+        "median": 2153.202455470644,
+        "upper": 3193.29614670685
+      },
+      "source_upper_limit_central": 2135.6314338302627,
+      "survey_efficiency_central": 0.03781419820684371,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.029017857142857144,
+      "calibrated_sky_region_count": 13,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0736885133681449e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2976.1323782781237,
+        "median": 4662.32455698,
+        "upper": 8577.647407372127
+      },
+      "source_upper_limit_central": 4598.6096895196015,
+      "survey_efficiency_central": 0.017561218669997575,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0925150965087394e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 33931.34667047281,
+        "median": 94914.62381518148,
+        "upper": 156047.2734121967
+      },
+      "source_upper_limit_central": 116892.98918477401,
+      "survey_efficiency_central": 0.0006908642759401902,
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.3568463155221738e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1173282.0979463637,
+        "median": 5009522.771886368,
+        "upper": 28400690.319940556
+      },
+      "source_upper_limit_central": 17596440.4350271,
+      "survey_efficiency_central": 4.589404921626639e-06,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.013392857142857142,
+      "calibrated_sky_region_count": 6,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.380637927009246e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 195632.1668283954,
+        "median": 516348.3182744555,
+        "upper": 2024136.5591083148
+      },
+      "source_upper_limit_central": 670874.5977120438,
+      "survey_efficiency_central": 0.00012037598473848667,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.017857142857142856,
+      "calibrated_sky_region_count": 8,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.404846712328519e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 156016.7046787593,
+        "median": 397269.4397720007,
+        "upper": 1355254.8041697438
+      },
+      "source_upper_limit_central": 555158.6036720658,
+      "survey_efficiency_central": 0.00014546688063818056,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.024553571428571428,
+      "calibrated_sky_region_count": 11,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4294799864114056e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 114508.48758444232,
+        "median": 269087.9323555328,
+        "upper": 811625.9324267228
+      },
+      "source_upper_limit_central": 386032.2067407379,
+      "survey_efficiency_central": 0.0002091980641134964,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.03125,
+      "calibrated_sky_region_count": 14,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4545451924529364e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 78849.09706938245,
+        "median": 174018.17040278635,
+        "upper": 468441.1459281182
+      },
+      "source_upper_limit_central": 235587.49222878515,
+      "survey_efficiency_central": 0.00034279065315232426,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.04241071428571429,
+      "calibrated_sky_region_count": 19,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.4800499041607713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 61655.72392079221,
+        "median": 132018.25425863842,
+        "upper": 324309.42771347973
+      },
+      "source_upper_limit_central": 184856.0446449371,
+      "survey_efficiency_central": 0.00043686529423875775,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.05133928571428571,
+      "calibrated_sky_region_count": 23,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.506001828043707e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 49660.55997827555,
+        "median": 102483.69240790428,
+        "upper": 241769.4580609047
+      },
+      "source_upper_limit_central": 143369.85616529224,
+      "survey_efficiency_central": 0.0005632787288460259,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.060267857142857144,
+      "calibrated_sky_region_count": 27,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.532408805740256e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 40557.66869601569,
+        "median": 82828.18599028005,
+        "upper": 191511.7470609908
+      },
+      "source_upper_limit_central": 115902.00818440325,
+      "survey_efficiency_central": 0.0006967712777429748,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.06919642857142858,
+      "calibrated_sky_region_count": 31,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.5592788163880807e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 35015.563030724974,
+        "median": 70487.33213407052,
+        "upper": 158848.56091359732
+      },
+      "source_upper_limit_central": 99632.50663632633,
+      "survey_efficiency_central": 0.0008105506231053615,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.078125,
+      "calibrated_sky_region_count": 35,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.58661997903498e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 29599.861739208605,
+        "median": 58251.765857873004,
+        "upper": 129883.28085989869
+      },
+      "source_upper_limit_central": 81459.55802028844,
+      "survey_efficiency_central": 0.0009913777130427085,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.08482142857142858,
+      "calibrated_sky_region_count": 38,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.614440555092116e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 26815.533715394602,
+        "median": 51842.27801207095,
+        "upper": 113039.75153884378
+      },
+      "source_upper_limit_central": 72415.50510277519,
+      "survey_efficiency_central": 0.00111519197747788,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.10491071428571429,
+      "calibrated_sky_region_count": 47,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6427489508303206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 21791.260259876457,
+        "median": 41512.128471448435,
+        "upper": 88121.89611567387
+      },
+      "source_upper_limit_central": 57666.61284203324,
+      "survey_efficiency_central": 0.0014004150123545908,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.11160714285714286,
+      "calibrated_sky_region_count": 50,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.6715537199201139e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 19960.31904175382,
+        "median": 37523.75936227149,
+        "upper": 78656.49224953135
+      },
+      "source_upper_limit_central": 52156.94957797889,
+      "survey_efficiency_central": 0.0015483495677768653,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.12276785714285714,
+      "calibrated_sky_region_count": 55,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.700863566016285e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 18284.060309655648,
+        "median": 34124.514999426225,
+        "upper": 71227.13157311006
+      },
+      "source_upper_limit_central": 48181.47883308605,
+      "survey_efficiency_central": 0.0016761044345564525,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.13392857142857142,
+      "calibrated_sky_region_count": 60,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.7306873453877937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 16309.55770237221,
+        "median": 30181.022460632088,
+        "upper": 62845.0701239661
+      },
+      "source_upper_limit_central": 42457.843619368,
+      "survey_efficiency_central": 0.0019020558618003944,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.15625,
+      "calibrated_sky_region_count": 70,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.761034069593781e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 14028.529827332493,
+        "median": 25684.460367941465,
+        "upper": 52436.32385570984
+      },
+      "source_upper_limit_central": 35816.82415502336,
+      "survey_efficiency_central": 0.0022547278336596203,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.19196428571428573,
+      "calibrated_sky_region_count": 86,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.79191290820651e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 11719.976339328225,
+        "median": 21395.436690671948,
+        "upper": 43293.341155405375
+      },
+      "source_upper_limit_central": 29863.673534878293,
+      "survey_efficiency_central": 0.0027041947884042356,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.22098214285714285,
+      "calibrated_sky_region_count": 99,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8233331915820185e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 10307.650363575609,
+        "median": 18579.198911907963,
+        "upper": 37285.88143441857
+      },
+      "source_upper_limit_central": 26009.641136988193,
+      "survey_efficiency_central": 0.003104894447035601,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.25223214285714285,
+      "calibrated_sky_region_count": 113,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8553044136794234e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 9044.406363613283,
+        "median": 16106.438687386099,
+        "upper": 32521.90283726103
+      },
+      "source_upper_limit_central": 22609.82792181212,
+      "survey_efficiency_central": 0.0035717737708970097,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.28794642857142855,
+      "calibrated_sky_region_count": 129,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.8878362349295893e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 7795.215988098408,
+        "median": 13898.07610920342,
+        "upper": 27607.510787515006
+      },
+      "source_upper_limit_central": 19337.668169785076,
+      "survey_efficiency_central": 0.004176159691363705,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.31473214285714285,
+      "calibrated_sky_region_count": 141,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9209384851541327e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 7122.275774566328,
+        "median": 12591.885032641074,
+        "upper": 24590.44247167537
+      },
+      "source_upper_limit_central": 17582.047627947886,
+      "survey_efficiency_central": 0.004593161845794014,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.3638392857142857,
+      "calibrated_sky_region_count": 163,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.9546211665356106e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 6121.822885841513,
+        "median": 10756.972215805494,
+        "upper": 20880.190909589473
+      },
+      "source_upper_limit_central": 14939.851816428816,
+      "survey_efficiency_central": 0.00540548804150906,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.39732142857142855,
+      "calibrated_sky_region_count": 178,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.988894456639751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 5475.227491602729,
+        "median": 9565.167788930878,
+        "upper": 18503.914983926235
+      },
+      "source_upper_limit_central": 13245.259350014438,
+      "survey_efficiency_central": 0.006097063726844681,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.421875,
+      "calibrated_sky_region_count": 189,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.023768711490756e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 5012.6040441382875,
+        "median": 8658.222953832046,
+        "upper": 16482.532587646
+      },
+      "source_upper_limit_central": 11908.88792051273,
+      "survey_efficiency_central": 0.006781253705186136,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.48214285714285715,
+      "calibrated_sky_region_count": 216,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0592544687004467e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 4299.258773794238,
+        "median": 7462.616104486709,
+        "upper": 14141.585672929956
+      },
+      "source_upper_limit_central": 10145.231924567155,
+      "survey_efficiency_central": 0.007960112783628539,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.5290178571428571,
+      "calibrated_sky_region_count": 237,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.0953624506523206e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3900.445288328236,
+        "median": 6689.900654997855,
+        "upper": 12616.183203112123
+      },
+      "source_upper_limit_central": 9105.41715478707,
+      "survey_efficiency_central": 0.008869136796567985,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.5535714285714286,
+      "calibrated_sky_region_count": 248,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1321035677414265e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3584.0191154369163,
+        "median": 6086.101184380665,
+        "upper": 11302.469213804534
+      },
+      "source_upper_limit_central": 8193.638448569596,
+      "survey_efficiency_central": 0.009856084185618607,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.6160714285714286,
+      "calibrated_sky_region_count": 276,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.1694889216710542e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3194.9011947717136,
+        "median": 5415.641850412767,
+        "upper": 9954.183775537924
+      },
+      "source_upper_limit_central": 7256.767120479709,
+      "survey_efficiency_central": 0.011128535475213778,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.6651785714285714,
+      "calibrated_sky_region_count": 298,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2075298088072337e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2877.8525638953247,
+        "median": 4858.136233385867,
+        "upper": 8782.678970810419
+      },
+      "source_upper_limit_central": 6448.36821106419,
+      "survey_efficiency_central": 0.012523662993850007,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.7455357142857143,
+      "calibrated_sky_region_count": 334,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.246237723592014e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2514.9459466956873,
+        "median": 4219.535314904916,
+        "upper": 7658.687108196253
+      },
+      "source_upper_limit_central": 5548.1850255284,
+      "survey_efficiency_central": 0.014555605114833422,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8236607142857143,
+      "calibrated_sky_region_count": 369,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.2856243620166782e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2248.8802439795295,
+        "median": 3768.8926284016916,
+        "upper": 6764.115638593137
+      },
+      "source_upper_limit_central": 4927.442375419204,
+      "survey_efficiency_central": 0.016389271387217984,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8794642857142857,
+      "calibrated_sky_region_count": 394,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.3257016251557713e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 2067.082310631661,
+        "median": 3445.412401403736,
+        "upper": 6084.519771188898
+      },
+      "source_upper_limit_central": 4484.067801025909,
+      "survey_efficiency_central": 0.01800980581006089,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.36648162276314e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1924.9560238469253,
+        "median": 3166.896330238777,
+        "upper": 5515.132458413745
+      },
+      "source_upper_limit_central": 4098.972241930835,
+      "survey_efficiency_central": 0.019701814398621648,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9419642857142857,
+      "calibrated_sky_region_count": 422,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.407976676931029e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1791.6055552192022,
+        "median": 2928.0887681911427,
+        "upper": 5057.85365468008
+      },
+      "source_upper_limit_central": 3776.2319799185643,
+      "survey_efficiency_central": 0.021385653944216883,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9620535714285714,
+      "calibrated_sky_region_count": 431,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4501993258132866e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1696.616653794312,
+        "median": 2743.526403685366,
+        "upper": 4646.891292474787
+      },
+      "source_upper_limit_central": 3514.384538771363,
+      "survey_efficiency_central": 0.022979042118099084,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9933035714285714,
+      "calibrated_sky_region_count": 445,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.4931623274139544e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1614.7614801305835,
+        "median": 2570.3081612577416,
+        "upper": 4266.406938247594
+      },
+      "source_upper_limit_central": 3281.511377159534,
+      "survey_efficiency_central": 0.024609754790954452,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.5368786634421904e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1535.013605735083,
+        "median": 2421.0244912912885,
+        "upper": 3946.4884286510164
+      },
+      "source_upper_limit_central": 3073.9523669743944,
+      "survey_efficiency_central": 0.02627145143927862,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.581361543234833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1469.3108126312377,
+        "median": 2285.132012502807,
+        "upper": 3685.15921208068
+      },
+      "source_upper_limit_central": 2883.26221781337,
+      "survey_efficiency_central": 0.028008964927535664,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.626624407747739e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1404.4378788334811,
+        "median": 2163.689077905647,
+        "upper": 3419.4919859930183
+      },
+      "source_upper_limit_central": 2705.06037447925,
+      "survey_efficiency_central": 0.02985411752636756,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.672680933617103e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1349.860737796362,
+        "median": 2043.21710856448,
+        "upper": 3189.456867383039
+      },
+      "source_upper_limit_central": 2537.3056573590384,
+      "survey_efficiency_central": 0.031827931373344956,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.719545037292007e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1289.6506965239255,
+        "median": 1931.3714418744412,
+        "upper": 2945.4202193510328
+      },
+      "source_upper_limit_central": 2378.4360762077904,
+      "survey_efficiency_central": 0.033953904056309006,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.7672308792393684e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1236.0847360889743,
+        "median": 1826.7972389149936,
+        "upper": 2747.379121652546
+      },
+      "source_upper_limit_central": 2227.317920403991,
+      "survey_efficiency_central": 0.03625759465939897,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.815752868222741e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1183.3597939170497,
+        "median": 1722.6428112670433,
+        "upper": 2546.410449454609
+      },
+      "source_upper_limit_central": 2083.1851677010127,
+      "survey_efficiency_central": 0.03876620839459336,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.8651256656560203e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1132.3203160107944,
+        "median": 1625.674434766342,
+        "upper": 2362.164711002669
+      },
+      "source_upper_limit_central": 1945.5732003151397,
+      "survey_efficiency_central": 0.041508173695311235,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.915364190033557e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1079.5540107258505,
+        "median": 1529.2540692537302,
+        "upper": 2191.4789676422483
+      },
+      "source_upper_limit_central": 1814.2516278018866,
+      "survey_efficiency_central": 0.04451267348921565,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 2.966483621437937e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1028.585049166956,
+        "median": 1436.5247767470582,
+        "upper": 2033.5841385864244
+      },
+      "source_upper_limit_central": 1689.1604394202227,
+      "survey_efficiency_central": 0.04780907038252802,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.0184994061267556e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 978.9044226011437,
+        "median": 1348.2869177281677,
+        "upper": 1882.382495800069
+      },
+      "source_upper_limit_central": 1570.3522189450796,
+      "survey_efficiency_central": 0.05142616373661311,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.071427261199931e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 928.1001993990404,
+        "median": 1261.4489721889086,
+        "upper": 1745.8085915394163
+      },
+      "source_upper_limit_central": 1457.941540708431,
+      "survey_efficiency_central": 0.055391240376059594,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1252831793487403e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 878.4523417109788,
+        "median": 1181.1286571671662,
+        "upper": 1611.9444771758858
+      },
+      "source_upper_limit_central": 1352.0616098778594,
+      "survey_efficiency_central": 0.05972892784295437,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.1800834336881833e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 830.2191864341631,
+        "median": 1104.4839692942255,
+        "upper": 1496.4447100929021
+      },
+      "source_upper_limit_central": 1252.827964246201,
+      "survey_efficiency_central": 0.0644599199892646,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.2358445826740734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 782.4175033533652,
+        "median": 1031.4890928851696,
+        "upper": 1384.596969899528
+      },
+      "source_upper_limit_central": 1160.3093875414004,
+      "survey_efficiency_central": 0.06959970435707771,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.292583475106342e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 737.4406034703752,
+        "median": 962.4225665445215,
+        "upper": 1279.7685753778862
+      },
+      "source_upper_limit_central": 1074.5065997333872,
+      "survey_efficiency_central": 0.07515746330051515,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.350317255220091e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 693.6851958111243,
+        "median": 899.9199084344236,
+        "upper": 1188.6968689863259
+      },
+      "source_upper_limit_central": 995.3393528914364,
+      "survey_efficiency_central": 0.0811353334930702,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.40906336786584e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 651.1198897926591,
+        "median": 839.2673922597794,
+        "upper": 1104.6997061108755
+      },
+      "source_upper_limit_central": 922.6421235291951,
+      "survey_efficiency_central": 0.08752818484670885,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.468839563780751e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 612.7455857724689,
+        "median": 784.1944652121998,
+        "upper": 1026.247291838223
+      },
+      "source_upper_limit_central": 856.1678115948332,
+      "survey_efficiency_central": 0.09432402064402806,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.5296639049521387e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 575.4481503832786,
+        "median": 733.8067575572452,
+        "upper": 955.1675158147444
+      },
+      "source_upper_limit_central": 795.5980456005187,
+      "survey_efficiency_central": 0.10150501347029794,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.591554770075099e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 541.5669423516127,
+        "median": 686.9287525193549,
+        "upper": 889.5846767286034
+      },
+      "source_upper_limit_central": 740.5581308836396,
+      "survey_efficiency_central": 0.10904909009541666,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.654530860105832e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 509.63012645931053,
+        "median": 644.9613381724109,
+        "upper": 832.1490272134317
+      },
+      "source_upper_limit_central": 690.6344895710001,
+      "survey_efficiency_central": 0.1169318815597917,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7186112039122693e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 480.31389549207535,
+        "median": 605.481433513077,
+        "upper": 780.302534763784
+      },
+      "source_upper_limit_central": 645.3925936661076,
+      "survey_efficiency_central": 0.12512878382580717,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.7838151640239283e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 453.67581791139816,
+        "median": 569.8854137990375,
+        "upper": 729.4509342467037
+      },
+      "source_upper_limit_central": 604.393762716111,
+      "survey_efficiency_central": 0.13361684934123935,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.85016244248244e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 428.6822083426422,
+        "median": 536.7601504759759,
+        "upper": 683.9896650089431
+      },
+      "source_upper_limit_central": 567.2096505072661,
+      "survey_efficiency_central": 0.14237626292747438,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.917673086794734e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 406.0395157317852,
+        "median": 506.86798625561727,
+        "upper": 644.7722853674223
+      },
+      "source_upper_limit_central": 533.4336892038442,
+      "survey_efficiency_central": 0.15139124500395615,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 3.986367495990601e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 385.34752152911625,
+        "median": 480.1147083588139,
+        "upper": 607.4595678657604
+      },
+      "source_upper_limit_central": 502.68915666907264,
+      "survey_efficiency_central": 0.16065035273634712,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.056266426786464e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 365.5309994217361,
+        "median": 454.6163220387857,
+        "upper": 573.795789271736
+      },
+      "source_upper_limit_central": 474.6338822628253,
+      "survey_efficiency_central": 0.17014628191020006,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.1273909998572523e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 347.94947074343645,
+        "median": 431.4424681415867,
+        "upper": 541.723019660085
+      },
+      "source_upper_limit_central": 448.961914243233,
+      "survey_efficiency_central": 0.17987536976660284,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.199762706218158e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 331.90247986224745,
+        "median": 409.6636755246925,
+        "upper": 512.7967904479095
+      },
+      "source_upper_limit_central": 425.4027281387168,
+      "survey_efficiency_central": 0.18983702969880767,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.273403413718469e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 317.2240468392689,
+        "median": 389.665753268043,
+        "upper": 485.11103485841886
+      },
+      "source_upper_limit_central": 403.7187292936894,
+      "survey_efficiency_central": 0.20003330159318844,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.348335373649094e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 303.0171691488744,
+        "median": 371.106551337937,
+        "upper": 459.01558736145375
+      },
+      "source_upper_limit_central": 383.7018574904821,
+      "survey_efficiency_central": 0.21046859367269702,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.424581227466035e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 290.48453513162633,
+        "median": 353.9633998288057,
+        "upper": 435.4887436808345
+      },
+      "source_upper_limit_central": 365.17001986574337,
+      "survey_efficiency_central": 0.2211495630591859,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.50216401363175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 278.4480278493635,
+        "median": 338.1648748576895,
+        "upper": 413.1526617282239
+      },
+      "source_upper_limit_central": 347.96388123403904,
+      "survey_efficiency_central": 0.23208497976635234,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.581107174576391e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 267.610138383454,
+        "median": 323.0358425954349,
+        "upper": 392.66057644665005
+      },
+      "source_upper_limit_central": 331.9442856601542,
+      "survey_efficiency_central": 0.24328537596307018,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.661434563781279e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 257.2247551797582,
+        "median": 309.09949800481553,
+        "upper": 373.1134806050784
+      },
+      "source_upper_limit_central": 316.9903402390543,
+      "survey_efficiency_central": 0.2547623068725733,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.743170452986402e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 247.05823251220912,
+        "median": 295.8058670130208,
+        "upper": 355.32263506410254
+      },
+      "source_upper_limit_central": 302.99801562383414,
+      "survey_efficiency_central": 0.266527126157426,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.826339539524394e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 238.00219828236413,
+        "median": 283.53322062125784,
+        "upper": 338.14330505740287
+      },
+      "source_upper_limit_central": 289.8790277160171,
+      "survey_efficiency_central": 0.27858928247385306,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.910966953783079e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 229.7149637778875,
+        "median": 271.8045966755866,
+        "upper": 321.90753892232954
+      },
+      "source_upper_limit_central": 277.5597502896587,
+      "survey_efficiency_central": 0.29095425489951604,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 4.997078266798879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 221.45748668766748,
+        "median": 260.70475694767316,
+        "upper": 306.91791533812886
+      },
+      "source_upper_limit_central": 265.9799462028361,
+      "survey_efficiency_central": 0.3036213499871829,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.084699497983379e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 214.14611782259504,
+        "median": 250.28611682501193,
+        "upper": 293.1178279831618
+      },
+      "source_upper_limit_central": 255.0911774462086,
+      "survey_efficiency_central": 0.31658166755944644,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.17385712298528e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 206.52439375326787,
+        "median": 240.36914761492727,
+        "upper": 280.3370786881848
+      },
+      "source_upper_limit_central": 244.85485251600508,
+      "survey_efficiency_central": 0.32981658115329626,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.26457808169041e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 199.64686984847722,
+        "median": 231.2575695322363,
+        "upper": 268.1937872442738
+      },
+      "source_upper_limit_central": 235.23998342582738,
+      "survey_efficiency_central": 0.34329704142785156,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.356889786361796e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 193.1067868206072,
+        "median": 222.41969417954851,
+        "upper": 256.87636473480535
+      },
+      "source_upper_limit_central": 226.2208318152983,
+      "survey_efficiency_central": 0.35698388025360506,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.450820129922588e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 186.72334305375108,
+        "median": 214.48901947742547,
+        "upper": 246.69370159848717
+      },
+      "source_upper_limit_central": 217.77468990217469,
+      "survey_efficiency_central": 0.3708290911671134,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.546397494384208e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 180.47983807902025,
+        "median": 206.78094564676354,
+        "upper": 237.2046260633648
+      },
+      "source_upper_limit_central": 209.88003704705577,
+      "survey_efficiency_central": 0.3847778543964968,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.643650759422175e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 174.6503593924036,
+        "median": 199.71111253538447,
+        "upper": 228.22886158185565
+      },
+      "source_upper_limit_central": 202.5152314749851,
+      "survey_efficiency_central": 0.3987709455108249,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.742609311102529e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 169.43081398652723,
+        "median": 193.09313029922117,
+        "upper": 219.97383065934125
+      },
+      "source_upper_limit_central": 195.6577705038223,
+      "survey_efficiency_central": 0.4127471662774862,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 1.0,
+      "calibrated_sky_region_count": 448,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.843303050761042e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 164.40569712520625,
+        "median": 186.84415400498216,
+        "upper": 212.68901335744042
+      },
+      "source_upper_limit_central": 189.28403663137394,
+      "survey_efficiency_central": 0.42664554165703916,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9977678571428571,
+      "calibrated_sky_region_count": 447,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 5.945762404038232e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 160.16363221298803,
+        "median": 181.84408076627662,
+        "upper": 206.55539833395724
+      },
+      "source_upper_limit_central": 184.02680724877322,
+      "survey_efficiency_central": 0.438833839172427,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9866071428571429,
+      "calibrated_sky_region_count": 442,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.050018330072777e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 158.47220776594506,
+        "median": 179.9589835321514,
+        "upper": 204.59986578074506
+      },
+      "source_upper_limit_central": 182.0734693239101,
+      "survey_efficiency_central": 0.44354177813767975,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9821428571428571,
+      "calibrated_sky_region_count": 440,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.156102330856146e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 155.27536184466328,
+        "median": 176.07414559851443,
+        "upper": 199.90944494789613
+      },
+      "source_upper_limit_central": 178.01235207936867,
+      "survey_efficiency_central": 0.45366059934771796,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9732142857142857,
+      "calibrated_sky_region_count": 436,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.26404646075126e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 153.37879815522436,
+        "median": 173.81127200777706,
+        "upper": 197.43895457967585
+      },
+      "source_upper_limit_central": 175.68232236614028,
+      "survey_efficiency_central": 0.45967738385946977,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.96875,
+      "calibrated_sky_region_count": 434,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.37388333617795e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 150.74017358975186,
+        "median": 170.6796432216899,
+        "upper": 193.65525590032075
+      },
+      "source_upper_limit_central": 172.3709858147835,
+      "survey_efficiency_central": 0.4685080261848638,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9575892857142857,
+      "calibrated_sky_region_count": 429,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.48564614546849e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 148.6783485850628,
+        "median": 168.3638922051556,
+        "upper": 190.91157275057103
+      },
+      "source_upper_limit_central": 169.97193484674798,
+      "survey_efficiency_central": 0.47512073336363786,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9486607142857143,
+      "calibrated_sky_region_count": 425,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.599368658895695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 147.32324585787342,
+        "median": 166.65380154302832,
+        "upper": 188.85432601578373
+      },
+      "source_upper_limit_central": 168.23704811013715,
+      "survey_efficiency_central": 0.48002025263041537,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9375,
+      "calibrated_sky_region_count": 420,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.715085238876967e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 146.71527548313352,
+        "median": 165.9278818123093,
+        "upper": 187.81551011317745
+      },
+      "source_upper_limit_central": 167.3380217671064,
+      "survey_efficiency_central": 0.48259916953014803,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9308035714285714,
+      "calibrated_sky_region_count": 417,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.83283085035729e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 144.4237129180157,
+        "median": 163.00772790913737,
+        "upper": 184.55244887404166
+      },
+      "source_upper_limit_central": 164.34104229674043,
+      "survey_efficiency_central": 0.49140001308866676,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9196428571428571,
+      "calibrated_sky_region_count": 412,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 6.952641071374125e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 143.50956089398125,
+        "median": 162.1001854716544,
+        "upper": 182.96006390998886
+      },
+      "source_upper_limit_central": 163.35711411656814,
+      "survey_efficiency_central": 0.49435980044307576,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.9107142857142857,
+      "calibrated_sky_region_count": 408,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.07455210380785e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 142.04662832825178,
+        "median": 160.34686800363573,
+        "upper": 180.69497828445222
+      },
+      "source_upper_limit_central": 161.5018874553781,
+      "survey_efficiency_central": 0.5000386782348661,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8950892857142857,
+      "calibrated_sky_region_count": 401,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.198600784320411e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 142.34899905672347,
+        "median": 160.5167009899722,
+        "upper": 180.75284043275298
+      },
+      "source_upper_limit_central": 161.55065232225783,
+      "survey_efficiency_central": 0.49988773907598116,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8883928571428571,
+      "calibrated_sky_region_count": 398,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.324824595485925e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 140.76055228342915,
+        "median": 158.51229751394953,
+        "upper": 178.0635163139055
+      },
+      "source_upper_limit_central": 159.42008899624852,
+      "survey_efficiency_central": 0.5065684685292313,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.875,
+      "calibrated_sky_region_count": 392,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.453261677116422e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 140.83234018631276,
+        "median": 158.43181036498066,
+        "upper": 177.47965741178749
+      },
+      "source_upper_limit_central": 159.33057754147097,
+      "survey_efficiency_central": 0.506853057220631,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8660714285714286,
+      "calibrated_sky_region_count": 388,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.583950837786181e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 140.33157838843752,
+        "median": 157.69171725637676,
+        "upper": 176.3078603516973
+      },
+      "source_upper_limit_central": 158.48962265758215,
+      "survey_efficiency_central": 0.5095424481519513,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8348214285714286,
+      "calibrated_sky_region_count": 374,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.716931566558164e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 144.16530447531915,
+        "median": 162.1709560634788,
+        "upper": 181.53040021013513
+      },
+      "source_upper_limit_central": 162.89020707388298,
+      "survey_efficiency_central": 0.4957768289839174,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.8035714285714286,
+      "calibrated_sky_region_count": 360,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.852244044915913e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 147.76754002866903,
+        "median": 166.3492839341402,
+        "upper": 186.48418201572974
+      },
+      "source_upper_limit_central": 167.14563211006012,
+      "survey_efficiency_central": 0.4831546557103408,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.7767857142857143,
+      "calibrated_sky_region_count": 348,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 7.989929158904987e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 150.4351004852011,
+        "median": 169.33818795350584,
+        "upper": 189.59062296297833
+      },
+      "source_upper_limit_central": 170.04447936790982,
+      "survey_efficiency_central": 0.47491803695018153,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.7433035714285714,
+      "calibrated_sky_region_count": 333,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.130028511486972e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 154.93633814486182,
+        "median": 174.39776288831638,
+        "upper": 195.4034055703532
+      },
+      "source_upper_limit_central": 175.07247610250994,
+      "survey_efficiency_central": 0.4612786209086215,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.7053571428571429,
+      "calibrated_sky_region_count": 316,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.272584435110267e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 162.42416068925866,
+        "median": 183.14651673482498,
+        "upper": 205.41792724094353
+      },
+      "source_upper_limit_central": 183.82122038690224,
+      "survey_efficiency_central": 0.4393246338243631,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.6741071428571429,
+      "calibrated_sky_region_count": 302,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.417640004501306e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 167.36316100181003,
+        "median": 189.20022629137424,
+        "upper": 212.65914314394635
+      },
+      "source_upper_limit_central": 189.9131115589941,
+      "survey_efficiency_central": 0.42523230583022265,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.6361607142857143,
+      "calibrated_sky_region_count": 285,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.565239049679883e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 174.4858798519642,
+        "median": 197.56733598382345,
+        "upper": 222.4405047476775
+      },
+      "source_upper_limit_central": 197.95451099617875,
+      "survey_efficiency_central": 0.4079583229966519,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.6004464285714286,
+      "calibrated_sky_region_count": 269,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.715426169203048e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 182.87190140743945,
+        "median": 207.21651623813096,
+        "upper": 234.32915464767447
+      },
+      "source_upper_limit_central": 207.94154467081995,
+      "survey_efficiency_central": 0.3883648669796377,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.578125,
+      "calibrated_sky_region_count": 259,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 8.868246743640879e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 188.0626115628171,
+        "median": 213.52883990071194,
+        "upper": 242.37794799816183
+      },
+      "source_upper_limit_central": 214.25186082607914,
+      "survey_efficiency_central": 0.376926436131067,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.5133928571428571,
+      "calibrated_sky_region_count": 230,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.023746949288717e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 210.6570445375983,
+        "median": 240.36748486219903,
+        "upper": 274.07925484105283
+      },
+      "source_upper_limit_central": 240.97838151005524,
+      "survey_efficiency_central": 0.33512213763562704,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.47098214285714285,
+      "calibrated_sky_region_count": 211,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.181973772119805e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 226.160425927357,
+        "median": 259.22074096607685,
+        "upper": 296.87161391436894
+      },
+      "source_upper_limit_central": 259.81508883608456,
+      "survey_efficiency_central": 0.3108256364070237,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.4419642857142857,
+      "calibrated_sky_region_count": 198,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.342975021982581e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 239.2690418424684,
+        "median": 275.8791327089292,
+        "upper": 318.000269492496
+      },
+      "source_upper_limit_central": 276.51463866232575,
+      "survey_efficiency_central": 0.29205394233844695,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.37723214285714285,
+      "calibrated_sky_region_count": 169,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.50679934704695e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 277.5776802744387,
+        "median": 321.94569732400373,
+        "upper": 374.762461783735
+      },
+      "source_upper_limit_central": 322.4057614805549,
+      "survey_efficiency_central": 0.2504830867933917,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.3236607142857143,
+      "calibrated_sky_region_count": 145,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.673496248503664e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 323.99651969290295,
+        "median": 379.97204898653763,
+        "upper": 448.01529973970196
+      },
+      "source_upper_limit_central": 380.79629084461106,
+      "survey_efficiency_central": 0.2120745193092687,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.24776785714285715,
+      "calibrated_sky_region_count": 111,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 9.843116095521851e-10,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 439.89206502359525,
+        "median": 527.8505884388646,
+        "upper": 637.9014774952759
+      },
+      "source_upper_limit_central": 528.1750397718209,
+      "survey_efficiency_central": 0.15289853600524483,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.16964285714285715,
+      "calibrated_sky_region_count": 76,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0015710140468418e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 650.6178401396766,
+        "median": 805.751127871787,
+        "upper": 1019.0401443085215
+      },
+      "source_upper_limit_central": 808.6290689296331,
+      "survey_efficiency_central": 0.09986926446079922,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.11830357142857142,
+      "calibrated_sky_region_count": 53,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0191330534394506e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 902.3009513908102,
+        "median": 1157.830240923492,
+        "upper": 1528.8052738232382
+      },
+      "source_upper_limit_central": 1157.328881229299,
+      "survey_efficiency_central": 0.06977894671551287,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.08928571428571429,
+      "calibrated_sky_region_count": 40,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0370030342793522e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1222.8508600912166,
+        "median": 1623.4656398925117,
+        "upper": 2257.8703000190885
+      },
+      "source_upper_limit_central": 1625.816459515196,
+      "survey_efficiency_central": 0.0496717755949552,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.05803571428571429,
+      "calibrated_sky_region_count": 26,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.055186356163523e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 1989.0427816444378,
+        "median": 2848.170586577179,
+        "upper": 4421.786748805439
+      },
+      "source_upper_limit_central": 2842.63287813624,
+      "survey_efficiency_central": 0.028409293003242644,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.029017857142857144,
+      "calibrated_sky_region_count": 13,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0736885133681449e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 3959.0057133972414,
+        "median": 6415.597732145088,
+        "upper": 12788.301352789942
+      },
+      "source_upper_limit_central": 6360.771752716181,
+      "survey_efficiency_central": 0.012696130827385589,
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_sky_fraction": 0.002232142857142857,
+      "calibrated_sky_region_count": 1,
+      "has_any_calibrated_support": true,
+      "incident_flux_ph_cm2_s": 1.0925150965087394e-09,
+      "source_upper_limit_90_percent_interval": {
+        "lower": 71872.01676961115,
+        "median": 201859.46344913729,
+        "upper": 443018.1307229354
+      },
+      "source_upper_limit_central": 273814.5208400283,
+      "survey_efficiency_central": 0.0002949339212831757,
+      "velocity_degrees_per_year": 0.8
+    }
+  ],
+  "schema_version": 1,
+  "scope": {
+    "real_search_rerun": false,
+    "scrambled_null_rerun": false
+  },
+  "status": "complete",
+  "support": {
+    "angular_speed_degrees_per_year": [
+      0.25,
+      0.8
+    ],
+    "mean_detected_photons_per_annual_bin": [
+      8.0,
+      35.0
+    ],
+    "outside_mean_count_or_angular_speed": "zero response; not a calibrated exclusion"
+  },
+  "uncertainty_draws": 20000
+}

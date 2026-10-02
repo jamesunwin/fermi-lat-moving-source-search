@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite this software release and the accompanying paper."
+title: "Fermi-LAT Moving Gamma-Ray Source Search"
+abstract: >-
+  Code and calibrated response products for an all-sky search for steadily
+  emitting gamma-ray point sources moving across the sky, with illustrative
+  primordial-black-hole interpretations.
+type: software
+authors:
+  - family-names: Lai
+    given-names: Dou
+  - family-names: Unwin
+    given-names: James
+license: BSD-3-Clause
+repository-code: "https://github.com/jamesunwin/fermi-lat-moving-source-search"
+version: 1.0.0
+date-released: 2026-10-02
+keywords:
+  - Fermi-LAT
+  - gamma-ray astronomy
+  - moving sources
+  - proper motion
+  - dark matter
+  - primordial black holes
+preferred-citation:
+  type: article
+  title: "An all-sky search for moving gamma-ray sources with the Fermi Large Area Telescope"
+  authors:
+    - family-names: Lai
+      given-names: Dou
+    - family-names: Unwin
+      given-names: James
+  year: 2026
+  notes: "Preprint forthcoming; [arxiv link will appear here]"

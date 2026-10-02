@@ -1,0 +1,405 @@
+{
+  "analysis_identity": "fl16y_v41_incident_e2_response_v1",
+  "construction": "invert the plus-one empirical-background predictive CDF convolved with a Poisson signal",
+  "coverage_validation": {
+    "acceptance": {
+      "background_mean": "observed combined-null mean",
+      "background_training_campaigns_per_pseudoexperiment": 60,
+      "dispersion_variance_to_mean": [
+        1.0,
+        "observed",
+        1.5,
+        2.0
+      ],
+      "monte_carlo_interval": "95 percent Wilson binomial interval",
+      "positive_signal_acceptance_interval": [
+        0.89,
+        0.92
+      ],
+      "pseudoexperiments_per_cell": 20000,
+      "random_seed": 400402,
+      "signal_means": [
+        0.0,
+        10.0,
+        25.0,
+        50.0,
+        87.0,
+        150.0
+      ],
+      "zero_signal_rule": "coverage must equal one because every upper limit includes the physical boundary"
+    },
+    "cells": [
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 1.0,
+        "covered": 20000,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9998079639438954,
+          "upper": 0.9999999999999999
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 0.0
+      },
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 0.9098,
+        "covered": 18196,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9057507328407705,
+          "upper": 0.9136918744076462
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 10.0
+      },
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 0.91245,
+        "covered": 18249,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.908453260639869,
+          "upper": 0.9162883288174501
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 25.0
+      },
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 0.9115,
+        "covered": 18230,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.907484308371458,
+          "upper": 0.9153576459543679
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 50.0
+      },
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 0.91265,
+        "covered": 18253,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9086572681545517,
+          "upper": 0.916484244488345
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 87.0
+      },
+      {
+        "background_variance_to_mean": 1.0,
+        "coverage": 0.91285,
+        "covered": 18257,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9088612818208717,
+          "upper": 0.9166801540076028
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 150.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 1.0,
+        "covered": 20000,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9998079639438954,
+          "upper": 0.9999999999999999
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 0.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 0.91165,
+        "covered": 18233,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9076372917183102,
+          "upper": 0.9155046049966988
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 10.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 0.9113,
+        "covered": 18226,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9072803358624608,
+          "upper": 0.9151616952777875
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 25.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 0.9112,
+        "covered": 18224,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9071783518685494,
+          "upper": 0.91506371767891
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 50.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 0.912,
+        "covered": 18240,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9079942661253079,
+          "upper": 0.9158474961644619
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 87.0
+      },
+      {
+        "background_variance_to_mean": 1.3671706607067582,
+        "coverage": 0.91365,
+        "covered": 18273,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9096773983871231,
+          "upper": 0.9174637301836615
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 150.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 1.0,
+        "covered": 20000,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9998079639438954,
+          "upper": 0.9999999999999999
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 0.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 0.9115,
+        "covered": 18230,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.907484308371458,
+          "upper": 0.9153576459543679
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 10.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 0.9118,
+        "covered": 18236,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9077902784725039,
+          "upper": 0.9156515606316883
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 25.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 0.9124,
+        "covered": 18248,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9084022597201581,
+          "upper": 0.9162393489407669
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 50.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 0.91545,
+        "covered": 18309,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9115140281457096,
+          "upper": 0.919226409095273
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 87.0
+      },
+      {
+        "background_variance_to_mean": 1.5,
+        "coverage": 0.91225,
+        "covered": 18245,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9082492592577834,
+          "upper": 0.9160924070139583
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 150.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 1.0,
+        "covered": 20000,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9998079639438954,
+          "upper": 0.9999999999999999
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 0.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 0.90915,
+        "covered": 18183,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9050880082000607,
+          "upper": 0.9130548486952288
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 10.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 0.9113,
+        "covered": 18226,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9072803358624608,
+          "upper": 0.9151616952777875
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 25.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 0.90975,
+        "covered": 18195,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9056997518211455,
+          "upper": 0.9136428746308766
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 50.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 0.91305,
+        "covered": 18261,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9090653016579767,
+          "upper": 0.9168760573560754
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 87.0
+      },
+      {
+        "background_variance_to_mean": 2.0,
+        "coverage": 0.91385,
+        "covered": 18277,
+        "monte_carlo_95_percent_wilson_interval": {
+          "lower": 0.9098814431010415,
+          "upper": 0.9176596086553207
+        },
+        "passed": true,
+        "pseudoexperiments": 20000,
+        "signal_mean": 150.0
+      }
+    ],
+    "method": "Each pseudoexperiment draws 60 new background-training campaigns, one background observation, and a Poisson signal, then evaluates the same plus-one empirical-CDF inversion rule.",
+    "status": "PASS"
+  },
+  "descriptive_standardized_deviation": 1.6396085746756082,
+  "finite_null_tail_resolution": 0.01639344262295082,
+  "note": "The incident-spectrum recalibration changes artificial-source injections only. The real search and time-scrambled campaigns are unchanged.",
+  "null_campaigns": 60,
+  "null_campaigns_at_or_above_observed": 3,
+  "null_counts": [
+    509,
+    524,
+    526,
+    521,
+    512,
+    520,
+    528,
+    508,
+    491,
+    529,
+    566,
+    612,
+    523,
+    535,
+    571,
+    534,
+    550,
+    515,
+    571,
+    562,
+    558,
+    485,
+    543,
+    496,
+    544,
+    509,
+    512,
+    541,
+    525,
+    522,
+    506,
+    524,
+    525,
+    549,
+    534,
+    522,
+    493,
+    529,
+    496,
+    553,
+    526,
+    576,
+    519,
+    546,
+    589,
+    500,
+    543,
+    493,
+    599,
+    541,
+    536,
+    531,
+    575,
+    507,
+    532,
+    519,
+    569,
+    543,
+    530,
+    518
+  ],
+  "null_mean": 532.75,
+  "null_sample_standard_deviation": 26.988148685886653,
+  "observed_candidate_tracks": 577,
+  "one_sided_gaussian_equivalent_z": 1.5095920899053836,
+  "plus_one_probability": 0.06557377049180328,
+  "schema_version": 1,
+  "selected_background_model": "campaign_resampling",
+  "signal_track_upper_limit_90_percent": 80.75719033562338,
+  "signal_track_upper_limit_bootstrap_90_percent_interval": {
+    "lower": 73.23729942947739,
+    "median": 80.43860387415673,
+    "upper": 86.34022002129562
+  },
+  "status": "complete"
+}

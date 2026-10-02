@@ -1,0 +1,217 @@
+{
+  "analysis_identity": "fl16y_v41_incident_e2_response_v1",
+  "best_node": {
+    "calibrated_support": true,
+    "efficiency": 0.8225,
+    "exact_detected_photons_per_annual_bin": 35.0,
+    "source_limit": 98.18503384270319,
+    "source_limit_90_percent_interval": {
+      "lower": 88.7908670714609,
+      "median": 98.32124179860043,
+      "upper": 107.23275257497134
+    },
+    "velocity_degrees_per_year": 0.5
+  },
+  "count_upper_limit_recovered_tracks": 80.75719033562338,
+  "latitude_weights": {
+    "b0_10": 78,
+    "b10_30": 146,
+    "b30_90": 224
+  },
+  "rows": [
+    {
+      "calibrated_support": true,
+      "efficiency": 0.08,
+      "exact_detected_photons_per_annual_bin": 8.0,
+      "source_limit": 1009.4648791952922,
+      "source_limit_90_percent_interval": {
+        "lower": 604.503528836427,
+        "median": 933.0420299518889,
+        "upper": 1632.4884974993001
+      },
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.20607142857142857,
+      "exact_detected_photons_per_annual_bin": 12.0,
+      "source_limit": 391.88931185397826,
+      "source_limit_90_percent_interval": {
+        "lower": 291.2338774334168,
+        "median": 383.03314907714423,
+        "upper": 519.8318350256598
+      },
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.5003571428571428,
+      "exact_detected_photons_per_annual_bin": 18.0,
+      "source_limit": 161.39909560295894,
+      "source_limit_90_percent_interval": {
+        "lower": 137.3350719390579,
+        "median": 159.81507987547099,
+        "upper": 187.77839285775073
+      },
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.7033928571428572,
+      "exact_detected_photons_per_annual_bin": 25.0,
+      "source_limit": 114.81093320119089,
+      "source_limit_90_percent_interval": {
+        "lower": 103.3651615982288,
+        "median": 115.58423363547044,
+        "upper": 128.63291912288457
+      },
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.7764285714285715,
+      "exact_detected_photons_per_annual_bin": 35.0,
+      "source_limit": 104.01110070825457,
+      "source_limit_90_percent_interval": {
+        "lower": 93.05735036575163,
+        "median": 103.56077708445912,
+        "upper": 113.58916253665659
+      },
+      "velocity_degrees_per_year": 0.25
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.04151785714285715,
+      "exact_detected_photons_per_annual_bin": 8.0,
+      "source_limit": 1945.119423137595,
+      "source_limit_90_percent_interval": {
+        "lower": 1061.1043789436126,
+        "median": 1751.5419480514047,
+        "upper": 3356.8863874186886
+      },
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.06803571428571428,
+      "exact_detected_photons_per_annual_bin": 12.0,
+      "source_limit": 1186.9823251430207,
+      "source_limit_90_percent_interval": {
+        "lower": 684.0942867810545,
+        "median": 1034.842252939098,
+        "upper": 1622.1971082112475
+      },
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.4442857142857143,
+      "exact_detected_photons_per_annual_bin": 18.0,
+      "source_limit": 181.76859561072786,
+      "source_limit_90_percent_interval": {
+        "lower": 152.40631585520367,
+        "median": 179.93462637953056,
+        "upper": 215.57333961624488
+      },
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.6864285714285714,
+      "exact_detected_photons_per_annual_bin": 25.0,
+      "source_limit": 117.64835220590295,
+      "source_limit_90_percent_interval": {
+        "lower": 105.14858664331793,
+        "median": 117.57084348738645,
+        "upper": 131.03587614812022
+      },
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.8225,
+      "exact_detected_photons_per_annual_bin": 35.0,
+      "source_limit": 98.18503384270319,
+      "source_limit_90_percent_interval": {
+        "lower": 88.7908670714609,
+        "median": 98.32124179860043,
+        "upper": 107.23275257497134
+      },
+      "velocity_degrees_per_year": 0.5
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.015,
+      "exact_detected_photons_per_annual_bin": 8.0,
+      "source_limit": 5383.812689041559,
+      "source_limit_90_percent_interval": {
+        "lower": 1936.0252336304327,
+        "median": 3894.126083755479,
+        "upper": 10180.108296990149
+      },
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.025,
+      "exact_detected_photons_per_annual_bin": 12.0,
+      "source_limit": 3230.287613424935,
+      "source_limit_90_percent_interval": {
+        "lower": 1338.5880840524044,
+        "median": 2397.8566634189565,
+        "upper": 4751.3003328484765
+      },
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.21258928571428573,
+      "exact_detected_photons_per_annual_bin": 18.0,
+      "source_limit": 379.87422585425526,
+      "source_limit_90_percent_interval": {
+        "lower": 281.2857883392918,
+        "median": 369.21374098476633,
+        "upper": 504.0394762846572
+      },
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.5099107142857142,
+      "exact_detected_photons_per_annual_bin": 25.0,
+      "source_limit": 158.37515877411695,
+      "source_limit_90_percent_interval": {
+        "lower": 135.78957953544656,
+        "median": 156.62431449910585,
+        "upper": 183.03007544019957
+      },
+      "velocity_degrees_per_year": 0.8
+    },
+    {
+      "calibrated_support": true,
+      "efficiency": 0.6890178571428571,
+      "exact_detected_photons_per_annual_bin": 35.0,
+      "source_limit": 117.2062371075524,
+      "source_limit_90_percent_interval": {
+        "lower": 104.27167343134583,
+        "median": 116.94119936378154,
+        "upper": 130.8402841662159
+      },
+      "velocity_degrees_per_year": 0.8
+    }
+  ],
+  "schema_version": 1,
+  "status": "complete",
+  "support": {
+    "angular_speed_degrees_per_year": [
+      0.25,
+      0.8
+    ],
+    "exact_detected_photons_per_annual_bin": [
+      8.0,
+      35.0
+    ],
+    "outside_support": "zero response; no calibrated exclusion"
+  },
+  "uncertainty_draws": 20000
+}

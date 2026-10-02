@@ -1,0 +1,153 @@
+{
+  "acceptance": {
+    "all_criteria_met": true,
+    "design_and_prediction_frozen_before_outcomes": true,
+    "real_search_or_null_rerun": false,
+    "statistically_compatible": true,
+    "thresholds_changed": false
+  },
+  "analysis_identity": "fl16y_v41_incident_e2_response_v1",
+  "cells": [
+    {
+      "cell_id": "b0_10_v0.25_r25",
+      "mean_realized_count": 24.750000000000004,
+      "observed_recoveries": 1,
+      "predicted_recoveries": 2.344147928677315,
+      "predicted_standard_deviation": 1.3396436009346293,
+      "standardized_residual_z": -1.0033623328917805,
+      "trials": 10
+    },
+    {
+      "cell_id": "b0_10_v0.25_r35",
+      "mean_realized_count": 35.059999999999995,
+      "observed_recoveries": 3,
+      "predicted_recoveries": 3.3344199722850254,
+      "predicted_standard_deviation": 1.4908334303763444,
+      "standardized_residual_z": -0.22431746261593072,
+      "trials": 10
+    },
+    {
+      "cell_id": "b0_10_v0.5_r35",
+      "mean_realized_count": 34.89,
+      "observed_recoveries": 3,
+      "predicted_recoveries": 3.0950719562120526,
+      "predicted_standard_deviation": 1.461890869661283,
+      "standardized_residual_z": -0.0650335522199961,
+      "trials": 10
+    },
+    {
+      "cell_id": "b0_10_v0.8_r35",
+      "mean_realized_count": 35.220000000000006,
+      "observed_recoveries": 3,
+      "predicted_recoveries": 1.3213039673486284,
+      "predicted_standard_deviation": 1.07084991942639,
+      "standardized_residual_z": 1.5676296016817926,
+      "trials": 10
+    },
+    {
+      "cell_id": "b10_30_v0.25_r18",
+      "mean_realized_count": 17.9,
+      "observed_recoveries": 2,
+      "predicted_recoveries": 4.726725141995046,
+      "predicted_standard_deviation": 1.578775501836229,
+      "standardized_residual_z": -1.7271139176049217,
+      "trials": 10
+    },
+    {
+      "cell_id": "b10_30_v0.5_r18",
+      "mean_realized_count": 17.840000000000003,
+      "observed_recoveries": 5,
+      "predicted_recoveries": 3.9613177116003637,
+      "predicted_standard_deviation": 1.546646019739646,
+      "standardized_residual_z": 0.6715707894004618,
+      "trials": 10
+    },
+    {
+      "cell_id": "b10_30_v0.8_r25",
+      "mean_realized_count": 25.3,
+      "observed_recoveries": 3,
+      "predicted_recoveries": 4.6851525186837,
+      "predicted_standard_deviation": 1.5780009842680323,
+      "standardized_residual_z": -1.0679033381372514,
+      "trials": 10
+    },
+    {
+      "cell_id": "b30_90_v0.25_r18",
+      "mean_realized_count": 17.96,
+      "observed_recoveries": 5,
+      "predicted_recoveries": 6.497851872873326,
+      "predicted_standard_deviation": 1.5085237739899848,
+      "standardized_residual_z": -0.9929255996487004,
+      "trials": 10
+    },
+    {
+      "cell_id": "b30_90_v0.5_r12",
+      "mean_realized_count": 11.45,
+      "observed_recoveries": 1,
+      "predicted_recoveries": 1.1502588467426311,
+      "predicted_standard_deviation": 1.0089347378753803,
+      "standardized_residual_z": -0.14892821220433636,
+      "trials": 10
+    },
+    {
+      "cell_id": "b30_90_v0.5_r18",
+      "mean_realized_count": 17.37,
+      "observed_recoveries": 8,
+      "predicted_recoveries": 5.851613200824823,
+      "predicted_standard_deviation": 1.5580357812380594,
+      "standardized_residual_z": 1.3789072273218321,
+      "trials": 10
+    },
+    {
+      "cell_id": "b30_90_v0.5_r35",
+      "mean_realized_count": 35.35,
+      "observed_recoveries": 10,
+      "predicted_recoveries": 9.560651982725746,
+      "predicted_standard_deviation": 0.6481090565992508,
+      "standardized_residual_z": 0.6778921121386499,
+      "trials": 10
+    },
+    {
+      "cell_id": "b30_90_v0.8_r25",
+      "mean_realized_count": 25.28,
+      "observed_recoveries": 6,
+      "predicted_recoveries": 6.827447087134447,
+      "predicted_standard_deviation": 1.471748522802854,
+      "standardized_residual_z": -0.562220429858917,
+      "trials": 10
+    }
+  ],
+  "paired_exact_count_comparison": {
+    "exact_count_recovered": 59,
+    "exact_only": 19,
+    "poissonized_only": 10,
+    "poissonized_recovered": 50,
+    "two_sided_binomial_p": 0.13604594767093658
+  },
+  "primary_result": {
+    "absolute_z_pass_threshold": 1.96,
+    "observed_minus_predicted": -3.35596218710311,
+    "observed_recoveries": 50,
+    "pass": true,
+    "predicted_recoveries": 53.35596218710311,
+    "predicted_standard_deviation": 4.794055141791135,
+    "standardized_residual_z": -0.7000257793967029,
+    "trials": 120
+  },
+  "schema_version": 1,
+  "scope": {
+    "detected_energy_density": "E^-2 times E10(E,Omega), normalized over 1--100 GeV",
+    "energy_dispersion": "neglected",
+    "exposure_direction": "injected track midpoint; nearest CAR pixel",
+    "real_search_rerun": false,
+    "scrambled_null_rerun": false,
+    "threshold_retuning": false
+  },
+  "status": "complete",
+  "zero_upper_tail_alternative": {
+    "observed_recoveries": 50,
+    "predicted_recoveries": 44.80607669222531,
+    "predicted_standard_deviation": 4.781036786263019,
+    "standardized_residual_z": 1.086359201982713
+  }
+}
