@@ -14,6 +14,23 @@ three angular speeds, three Galactic-latitude bands, ten representative sky
 regions per band, and five repetitions. The separate annual-count validation
 contains 120 sources.
 
+## Prepared-data and batch-search paths
+
+The preparation and batch-search commands use `allsky_queries/data` as their
+common default prepared-data directory. For clarity, the same path can be
+given explicitly, together with the externally downloaded FL16Y-v41 catalogue:
+
+```bash
+python moving/prepare_allsky_v5.py prepare \
+  --output-root allsky_queries/data
+python moving/run_fps_moving_v5_rois_New.py \
+  --roi-root allsky_queries/data \
+  --catalog-fits data/gll_psc_v41.fit
+```
+
+The prepared photon files and catalogue are external inputs and are not
+redistributed in this compact repository.
+
 ## Compact and external products
 
 The committed release contains all tabulated responses used in the physical

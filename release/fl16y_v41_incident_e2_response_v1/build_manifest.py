@@ -31,7 +31,7 @@ def main() -> None:
         "schema_version": 1,
         "analysis_identity": "fl16y_v41_incident_e2_response_v1",
         "software_version": "1.0.0",
-        "release_date": "2026-10-02",
+        "release_date": "2026-10-05",
         "hash_algorithm": "sha256",
         "files": files,
     }

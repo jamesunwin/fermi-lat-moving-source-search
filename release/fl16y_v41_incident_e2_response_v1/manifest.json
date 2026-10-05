@@ -126,8 +126,8 @@
       "sha256": "f91726ecd8c5291e5d363c94a496fa8c900cd4d02aaef547f69d05702f39d3da"
     },
     "results/exact_count_response.json": {
-      "bytes": 104728,
-      "sha256": "17d5535e66667f0dc05f9169523def21e3d6730a3d974d329af84e33c67ada51"
+      "bytes": 104823,
+      "sha256": "bd92c21eb0956fe748c70c5ede588c22f58bf9db2f607b684f041074d848532c"
     },
     "results/exact_count_source_limits.json": {
       "bytes": 6592,
@@ -143,7 +143,7 @@
     }
   },
   "hash_algorithm": "sha256",
-  "release_date": "2026-10-02",
+  "release_date": "2026-10-05",
   "schema_version": 1,
   "software_version": "1.0.0"
 }

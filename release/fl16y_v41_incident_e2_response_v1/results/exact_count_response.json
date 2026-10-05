@@ -727,6 +727,7 @@
       "velocity_degrees_per_year": 0.8
     }
   ],
+  "count_upper_limit_recovered_tracks": 80.75719033562338,
   "energy_model": {
     "detected_energy_density": "E^-2 E10(E,Omega), normalized over 1--100 GeV",
     "energy_dispersion": "neglected",
@@ -1088,9 +1089,9 @@
     "latitude_robustness": {
       "best_node_full_efficiency": 0.8225,
       "best_node_plane_zero_efficiency": 0.7667857142857143,
-      "best_node_plane_zero_source_limit": 105.37494177922683,
+      "best_node_plane_zero_source_limit": 105.31911175581997,
       "best_node_rate_exact_detected_photons_per_annual_bin": 35.0,
-      "best_node_source_limit": 98.23708206686929,
+      "best_node_source_limit": 98.18503384270319,
       "best_node_source_limit_weakening_fraction": 0.07265952491849093,
       "best_node_velocity_degrees_per_year": 0.5,
       "maximum_source_limit_weakening_fraction_across_supported_nodes": 0.16182572614107893,
@@ -1294,9 +1295,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 8.0,
           "source_limit_90_percent_interval": {
-            "lower": 780.8110440034512,
-            "median": 1010.0,
-            "upper": 1523.5016835016836
+            "lower": 780.3973526824692,
+            "median": 1009.4648791952923,
+            "upper": 1522.694497910744
           },
           "velocity_degrees_per_year": 0.25
         },
@@ -1308,9 +1309,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 12.0,
           "source_limit_90_percent_interval": {
-            "lower": 280.73832790445164,
-            "median": 397.9595426561125,
-            "upper": 614.782608695652
+            "lower": 280.58958639956,
+            "median": 397.74869470491717,
+            "upper": 614.4568829884386
           },
           "velocity_degrees_per_year": 0.25
         },
@@ -1322,9 +1323,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 18.0,
           "source_limit_90_percent_interval": {
-            "lower": 141.98791872597474,
-            "median": 161.1539501690882,
-            "upper": 186.24408314467996
+            "lower": 141.91269032070008,
+            "median": 161.06856716760672,
+            "upper": 186.14540682423993
           },
           "velocity_degrees_per_year": 0.25
         },
@@ -1336,9 +1337,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 25.0,
           "source_limit_90_percent_interval": {
-            "lower": 107.96468623240277,
-            "median": 115.62028874409096,
-            "upper": 124.49580409960105
+            "lower": 107.90748410391099,
+            "median": 115.55903050453325,
+            "upper": 124.42984341160846
           },
           "velocity_degrees_per_year": 0.25
         },
@@ -1350,9 +1351,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 35.0,
           "source_limit_90_percent_interval": {
-            "lower": 97.41227125941872,
-            "median": 103.48313321898226,
-            "upper": 110.01215657670798
+            "lower": 97.36066003864174,
+            "median": 103.4283055184656,
+            "upper": 109.95386965219812
           },
           "velocity_degrees_per_year": 0.25
         },
@@ -1364,9 +1365,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 8.0,
           "source_limit_90_percent_interval": {
-            "lower": 1281.813031161473,
-            "median": 2124.319248826291,
-            "upper": 5386.666666666667
+            "lower": 1281.1338976756117,
+            "median": 2123.1937365234317,
+            "upper": 5383.812689041559
           },
           "velocity_degrees_per_year": 0.5
         },
@@ -1378,9 +1379,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 12.0,
           "source_limit_90_percent_interval": {
-            "lower": 784.1941074523396,
-            "median": 1154.2857142857142,
-            "upper": 1946.1505376344082
+            "lower": 783.7786237079565,
+            "median": 1153.6741476517625,
+            "upper": 1945.119423137595
           },
           "velocity_degrees_per_year": 0.5
         },
@@ -1392,9 +1393,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 18.0,
           "source_limit_90_percent_interval": {
-            "lower": 161.3407024425031,
-            "median": 181.86495176848874,
-            "upper": 207.8934068458534
+            "lower": 161.2552204954505,
+            "median": 181.76859561072786,
+            "upper": 207.78326022489819
           },
           "velocity_degrees_per_year": 0.5
         },
@@ -1406,9 +1407,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 25.0,
           "source_limit_90_percent_interval": {
-            "lower": 108.31358467983243,
-            "median": 117.56544332575511,
-            "upper": 131.17263371503117
+            "lower": 108.25619769706545,
+            "median": 117.50315449938056,
+            "upper": 131.10313549195274
           },
           "velocity_degrees_per_year": 0.5
         },
@@ -1420,9 +1421,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 35.0,
           "source_limit_90_percent_interval": {
-            "lower": 94.34528773978315,
-            "median": 98.00303227203813,
-            "upper": 102.07083239341304
+            "lower": 94.29530147612404,
+            "median": 97.95110805273792,
+            "upper": 102.01675296176201
           },
           "velocity_degrees_per_year": 0.5
         },
@@ -1434,9 +1435,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 8.0,
           "source_limit_90_percent_interval": {
-            "lower": 2308.5714285714284,
-            "median": 5386.666666666667,
-            "upper": 16160.0
+            "lower": 2307.348295303525,
+            "median": 5383.812689041559,
+            "upper": 16151.438067124676
           },
           "velocity_degrees_per_year": 0.8
         },
@@ -1448,9 +1449,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 12.0,
           "source_limit_90_percent_interval": {
-            "lower": 1804.506480558325,
-            "median": 3507.5968992248063,
-            "upper": 12396.712328767122
+            "lower": 1803.5504122811203,
+            "median": 3505.7384951898525,
+            "upper": 12390.144270670984
           },
           "velocity_degrees_per_year": 0.8
         },
@@ -1462,9 +1463,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 18.0,
           "source_limit_90_percent_interval": {
-            "lower": 310.9828178694158,
-            "median": 381.35693215339234,
-            "upper": 477.8035902851109
+            "lower": 310.81805215085285,
+            "median": 381.1548806401104,
+            "upper": 477.5504391546895
           },
           "velocity_degrees_per_year": 0.8
         },
@@ -1476,9 +1477,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 25.0,
           "source_limit_90_percent_interval": {
-            "lower": 137.8881609020265,
-            "median": 158.1821359902115,
-            "upper": 185.44262295081967
+            "lower": 137.81510464101504,
+            "median": 158.09832752298232,
+            "upper": 185.34437126208644
           },
           "velocity_degrees_per_year": 0.8
         },
@@ -1490,9 +1491,9 @@
           },
           "rate_exact_detected_photons_per_annual_bin": 35.0,
           "source_limit_90_percent_interval": {
-            "lower": 107.93893129770993,
-            "median": 117.1924371924372,
-            "upper": 128.89332003988034
+            "lower": 107.88174281476407,
+            "median": 117.13034599313416,
+            "upper": 128.82502944865143
           },
           "velocity_degrees_per_year": 0.8
         }
@@ -3518,7 +3519,7 @@
       "efficiency_change": 0.010000000000000009,
       "isotonic_efficiency": 0.08,
       "rate_exact_detected_photons_per_annual_bin": 8.0,
-      "source_limit": 1010.0,
+      "source_limit": 1009.4648791952923,
       "velocity_degrees_per_year": 0.25
     },
     {
@@ -3530,7 +3531,7 @@
       "efficiency_change": 0.01825892857142858,
       "isotonic_efficiency": 0.20607142857142857,
       "rate_exact_detected_photons_per_annual_bin": 12.0,
-      "source_limit": 392.0970537261698,
+      "source_limit": 391.88931185397826,
       "velocity_degrees_per_year": 0.25
     },
     {
@@ -3542,7 +3543,7 @@
       "efficiency_change": -0.028258928571428643,
       "isotonic_efficiency": 0.5003571428571428,
       "rate_exact_detected_photons_per_annual_bin": 18.0,
-      "source_limit": 161.48465381870093,
+      "source_limit": 161.39909560295894,
       "velocity_degrees_per_year": 0.25
     },
     {
@@ -3554,7 +3555,7 @@
       "efficiency_change": -0.0015178571428571264,
       "isotonic_efficiency": 0.7033928571428572,
       "rate_exact_detected_photons_per_annual_bin": 25.0,
-      "source_limit": 114.87179487179486,
+      "source_limit": 114.81093320119089,
       "velocity_degrees_per_year": 0.25
     },
     {
@@ -3566,7 +3567,7 @@
       "efficiency_change": 0.034553571428571406,
       "isotonic_efficiency": 0.7764285714285715,
       "rate_exact_detected_photons_per_annual_bin": 35.0,
-      "source_limit": 104.06623735050597,
+      "source_limit": 104.01110070825457,
       "velocity_degrees_per_year": 0.25
     },
     {
@@ -3578,7 +3579,7 @@
       "efficiency_change": -0.0049999999999999975,
       "isotonic_efficiency": 0.04151785714285715,
       "rate_exact_detected_photons_per_annual_bin": 8.0,
-      "source_limit": 1946.1505376344082,
+      "source_limit": 1945.119423137595,
       "velocity_degrees_per_year": 0.5
     },
     {
@@ -3590,7 +3591,7 @@
       "efficiency_change": -0.0015178571428571541,
       "isotonic_efficiency": 0.06803571428571428,
       "rate_exact_detected_photons_per_annual_bin": 12.0,
-      "source_limit": 1187.6115485564305,
+      "source_limit": 1186.982325143021,
       "velocity_degrees_per_year": 0.5
     },
     {
@@ -3602,7 +3603,7 @@
       "efficiency_change": -0.010000000000000009,
       "isotonic_efficiency": 0.4442857142857143,
       "rate_exact_detected_photons_per_annual_bin": 18.0,
-      "source_limit": 181.86495176848874,
+      "source_limit": 181.76859561072786,
       "velocity_degrees_per_year": 0.5
     },
     {
@@ -3614,7 +3615,7 @@
       "efficiency_change": -0.006517857142857242,
       "isotonic_efficiency": 0.6864285714285714,
       "rate_exact_detected_photons_per_annual_bin": 25.0,
-      "source_limit": 117.71071800208117,
+      "source_limit": 117.64835220590295,
       "velocity_degrees_per_year": 0.5
     },
     {
@@ -3626,7 +3627,7 @@
       "efficiency_change": -0.010000000000000009,
       "isotonic_efficiency": 0.8225,
       "rate_exact_detected_photons_per_annual_bin": 35.0,
-      "source_limit": 98.23708206686929,
+      "source_limit": 98.18503384270319,
       "velocity_degrees_per_year": 0.5
     },
     {
@@ -3638,7 +3639,7 @@
       "efficiency_change": -0.008258928571428573,
       "isotonic_efficiency": 0.015,
       "rate_exact_detected_photons_per_annual_bin": 8.0,
-      "source_limit": 5386.666666666667,
+      "source_limit": 5383.812689041559,
       "velocity_degrees_per_year": 0.8
     },
     {
@@ -3650,7 +3651,7 @@
       "efficiency_change": -0.0017410714285714286,
       "isotonic_efficiency": 0.025,
       "rate_exact_detected_photons_per_annual_bin": 12.0,
-      "source_limit": 3231.9999999999995,
+      "source_limit": 3230.287613424935,
       "velocity_degrees_per_year": 0.8
     },
     {
@@ -3662,7 +3663,7 @@
       "efficiency_change": 0.020000000000000018,
       "isotonic_efficiency": 0.21258928571428573,
       "rate_exact_detected_photons_per_annual_bin": 18.0,
-      "source_limit": 380.0755984880302,
+      "source_limit": 379.87422585425526,
       "velocity_degrees_per_year": 0.8
     },
     {
@@ -3674,7 +3675,7 @@
       "efficiency_change": 0.039553571428571355,
       "isotonic_efficiency": 0.5099107142857142,
       "rate_exact_detected_photons_per_annual_bin": 25.0,
-      "source_limit": 158.45911399054458,
+      "source_limit": 158.37515877411695,
       "velocity_degrees_per_year": 0.8
     },
     {
@@ -3686,7 +3687,7 @@
       "efficiency_change": 0.046517857142857055,
       "isotonic_efficiency": 0.6890178571428571,
       "rate_exact_detected_photons_per_annual_bin": 35.0,
-      "source_limit": 117.26836853699623,
+      "source_limit": 117.2062371075524,
       "velocity_degrees_per_year": 0.8
     }
   ],

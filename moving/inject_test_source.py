@@ -676,6 +676,21 @@ def main():
     _run_injection(args, quiet=False)
 
 
+def format_search_command(
+    events_file, roi_ra, roi_dec, roi_radius_degrees, label,
+    catalog_fits="data/gll_psc_v41.fit",
+):
+    """Return the standalone search command for one injected ROI."""
+    return (
+        f'FPS_EVENTS_FILE="{events_file}" \\\n'
+        f"FPS_ROI_RA={roi_ra} FPS_ROI_DEC={roi_dec} \\\n"
+        f"FPS_ROI_RADIUS_DEG={roi_radius_degrees} \\\n"
+        f"FPS_OUTPUT_LABEL=injection/{label} \\\n"
+        f"FPS_CATALOG_FITS={catalog_fits} \\\n"
+        f"python moving/fps_moving_v5_New.py"
+    )
+
+
 def _run_injection(args, quiet=False):
     rng = np.random.default_rng(args.seed)
     psf_model = getattr(args, "psf_model", "gaussian")
@@ -689,7 +704,12 @@ def _run_injection(args, quiet=False):
     roi_dir = PROJECT_ROOT / args.roi_dir
     info = json.loads((roi_dir / "query_info.json").read_text())
     roi_ra, roi_dec = info["ra_degrees"], info["dec_degrees"]
-    roi_radius = float(info.get("search_radius_degrees", 7.5))
+    if "analysis_radius_degrees" not in info:
+        raise ValueError(
+            f"{roi_dir}: query_info.json lacks analysis_radius_degrees"
+        )
+    analysis_radius = float(info["analysis_radius_degrees"])
+    roi_radius = float(info.get("search_radius_degrees", analysis_radius))
 
     photon_files = [
         line.strip()
@@ -912,15 +932,15 @@ def _run_injection(args, quiet=False):
         )
         print(f"Ground truth: {out_dir / 'injection_truth.json'}")
         print("\nRun the search on the injected data with:\n")
+        print(format_search_command(
+            out_dir / "events.txt",
+            roi_ra,
+            roi_dec,
+            analysis_radius,
+            label,
+        ))
         print(
-            f'FPS_EVENTS_FILE="{out_dir / "events.txt"}" \\\n'
-            f"FPS_ROI_RA={roi_ra} FPS_ROI_DEC={roi_dec} \\\n"
-            f"FPS_OUTPUT_LABEL=injection/{label} \\\n"
-            f"FPS_CATALOG_FITS=data/gll_psc_v35.fit \\\n"
-            f"python moving/fps_moving_v5_New.py"
-        )
-        print(
-            f"\nThen inspect moving/results_full/injection/{label}/candidates.json"
+            f"\nThen inspect moving/results_v5/injection/{label}/candidates.json"
             f" and compare with the truth file."
         )
 

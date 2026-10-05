@@ -62,6 +62,26 @@ def main() -> int:
         raise AssertionError("unexpected injection grid dimensions")
     if sum(cell["recovered"] for cell in response["cells"]) != 725:
         raise AssertionError("injection recovery total mismatch")
+    close(
+        response["count_upper_limit_recovered_tracks"],
+        count["signal_track_upper_limit_90_percent"],
+    )
+    exact_limits = read_json("results/exact_count_source_limits.json")
+    response_nodes = {
+        (
+            row["velocity_degrees_per_year"],
+            row["rate_exact_detected_photons_per_annual_bin"],
+        ): row
+        for row in response["survey_weighted_nodes"]
+    }
+    for row in exact_limits["rows"]:
+        key = (
+            row["velocity_degrees_per_year"],
+            row["exact_detected_photons_per_annual_bin"],
+        )
+        if key not in response_nodes:
+            raise AssertionError(f"exact-count response node missing: {key}")
+        close(response_nodes[key]["source_limit"], row["source_limit"])
     exact = headline["exact_count"]
     close(
         count["signal_track_upper_limit_90_percent"] / exact["efficiency"],
