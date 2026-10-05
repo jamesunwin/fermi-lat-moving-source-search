@@ -63,7 +63,7 @@
     },
     "headline_results.json": {
       "bytes": 15368,
-      "sha256": "4f942d322890bf429555d168207fd2c7457b0d0ce4fe742b1b52fa3e4f4de1ea"
+      "sha256": "b3ede4b34f5482eb683689ec58c442720a7f3bc20328e553434f5ad4ff7b4311"
     },
     "inputs/exposures.json": {
       "bytes": 59105,
@@ -145,5 +145,5 @@
   "hash_algorithm": "sha256",
   "release_date": "2026-10-05",
   "schema_version": 1,
-  "software_version": "1.0.0"
+  "software_version": "1.0.1"
 }
